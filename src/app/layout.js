@@ -1,7 +1,6 @@
 // app/layout.js
 import Header from '@/components/layouts/Header';
 import Footer from '@/components/layouts/Footer';
-import BannerSlider from '@/components/layouts/BannerSlider';
 import './globals.css';  // Đưa vào các style chung
 export const metadata = {
   title: 'Film Web',
@@ -12,8 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Header></Header>
-        <BannerSlider></BannerSlider>
+        <Header></Header> 
         {children}
       <Footer></Footer>
       </body>

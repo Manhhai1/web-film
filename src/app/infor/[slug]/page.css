@@ -1,0 +1,146 @@
+.page {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.film-info {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.film-info > .image-film {
+    width: 100%;
+    height: 600px;
+    background-position: center!important;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    position: relative;
+}
+.movie{
+    background-color: #333;
+    width: 100%;
+}
+.movie-details {
+    width: 100%;
+    margin: 20px auto; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 20px; 
+    padding-left: 20px;
+}
+.movie-details::after {
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 2.5%;
+    width: 95%;
+    border-bottom: 1px solid #828282; 
+}
+
+.movie-details p {
+    margin: 10px 0;
+    width: 300px;
+    display: block;
+    text-align: left;
+    font-size: 0.9rem; 
+    line-height: 1.3; 
+    color: #828282;
+}
+.movie-details strong {
+    color: #fff;
+    margin-right: 8px;
+}
+.name-content{
+    font-size: 16px;
+    color:#ff9601 ;
+    text-align: left;
+    font-weight: 550;
+    margin-left: 20px;
+}
+.movie-review {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+    text-align: left;
+}
+.movie-review::after{
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 2.5%;
+    width: 95%;
+    border-bottom: 1px solid #828282; 
+}
+.movie-review p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: #828282;
+}
+.poster-film{
+    height: 280px;
+    width:190px;
+    object-fit:cover;
+    transition: all .3s ease-in-out;
+    transition: transform .5s ease;
+    position: absolute;
+    bottom: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    left:0;
+    border: 1px solid #fff;
+}
+.content-film{
+    position: absolute;
+    text-align: left;
+    bottom: 0;
+    left: 0;
+    margin-left: 230px;
+    margin-bottom: 40px;
+    color: #fff;
+    text-shadow: 0 2px 1px #333;
+}
+.content-film h4{
+    margin-top: -10px;
+}
+.btn-watch-film{
+    color: #fff;
+    background-color: black;
+    width: 120px;
+    height: 40px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+}
+.btn-watch-film:hover{
+    background-color:#ff9601;
+    ;
+}
+.play-icon{
+    height: 50px;
+    width: 50px;
+    left: 46%;
+    top:45%;
+    position: absolute;
+    border-radius: 50%;
+    scale: 1;
+    z-index: 10;
+    opacity: 1;
+}
+.play-icon:hover{
+    opacity: 1;
+    transition: all .6s ease-in-out;
+    scale: 1.5;
+}
+

@@ -4,6 +4,7 @@ import './page.css';
 import Section from '@/components/layouts/Section';
 import ReactPaginate from 'react-paginate';
 import React, { useEffect, useState } from 'react';
+import BannerSlider from '@/components/layouts/BannerSlider';
 
 const Page = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -33,6 +34,7 @@ const Page = () => {
 
   return (
     <div>
+      <BannerSlider></BannerSlider>
       <Section type={type} onTotalPagesChange={handleTotalPagesChange} />
       <ReactPaginate
         previousLabel={'«'}

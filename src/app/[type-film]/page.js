@@ -5,6 +5,7 @@ import Section from '@/components/layouts/Section';
 import { useParams } from 'next/navigation';
 import ReactPaginate from 'react-paginate';
 import React, { useEffect, useState } from 'react';
+import BannerSlider from '@/components/layouts/BannerSlider';
 
 const Page = () => {
   const params = useParams(); // Get the dynamic route parameters
@@ -35,6 +36,7 @@ const Page = () => {
 
   return (
     <div>
+      <BannerSlider></BannerSlider>
       <Section type={type} onTotalPagesChange={handleTotalPagesChange} />
       <ReactPaginate
         previousLabel={'«'}
