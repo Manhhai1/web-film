@@ -45,7 +45,7 @@ const Page = () => {
         breakClassName={'break-me'}
         pageCount={totalPages} // Tổng số trang
         marginPagesDisplayed={2}
-        pageRangeDisplayed={5}
+        pageRangeDisplayed={3}
         onPageChange={handlePageClick} // Hàm callback khi trang thay đổi
         containerClassName={'pagination'}
         activeClassName={'active'}
