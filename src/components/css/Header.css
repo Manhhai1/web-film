@@ -1,10 +1,12 @@
 .header {
   background-color: #333;
   padding: 15px 0;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  position: relative;
 }
 
 .logo a {
@@ -14,33 +16,94 @@
   text-decoration: none;
   margin-left: 20px;
 }
+.logo{
+}
 
-/* Menu styles */
-.menu-container .menu {
+nav {
+  flex-grow: 1;
+}
+
+.menu {
   list-style: none;
   display: flex;
   justify-content: space-between;
   position: relative;
   text-transform: uppercase;
+  font-size: 16px;
+  height: 100%;
+  flex-wrap: nowrap;
+  width: auto;
 }
 
 .menu li {
-  margin: 0 15px;
+  margin: 10px;
+  position: relative;
   font-weight: 550;
 }
 
-/* Dropdown styles */
-.dropdownMenu {
-  display: none;
-  position: absolute;
-  list-style: none;
-  top: 100%;
-  left: 0;
+.menu .top-phim a {
+  color: #ff9601;
 }
 
-.dropdown:hover .dropdownMenu {
-  display: block;
+.menu li a,
+.menu li span {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+  display: flex;
+  width: auto;
 }
+
+.menu li a:hover {
+  color: #ff9601;
+}
+
+.menu li:hover .dropdownMenu {
+  display: flex;
+  flex-wrap: wrap;
+  transition: width 0.3s ease;
+  justify-content: flex-start;
+  background-color: #333;
+  width: 400px;
+}
+
+/* Dropdown Menu */
+.dropdownMenu {
+  padding-top: 10px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 10px 0;
+  list-style: none;
+  width: 0px;
+  height: auto;
+  border: solid 1px gray;
+  z-index: 10;
+}
+
+.dropdownMenu li {
+  width: 120px;
+  padding: 5px;
+  margin: 0;
+  display: block;
+  float: left;
+  text-transform: capitalize;
+  font-weight: 450;
+  flex-wrap: nowrap;
+}
+
+.dropdownMenu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.dropdownMenu li a:hover {
+  color: #ff9601;
+}
+
 
 /* Sidebar styles */
 /* Sidebar basic styles */
@@ -112,7 +175,7 @@
   color: #ff9601;
 }
 .openbtn {
-  display: block;
+  display: none;
   position: absolute;
   right: 20px;
   top: 20px;
@@ -138,5 +201,8 @@
 @media (max-width: 768px) {
   .menu-container>.menu{
     display: none;
+  }
+  .openbtn{
+    display: block;
   }
 }

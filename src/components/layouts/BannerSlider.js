@@ -20,7 +20,7 @@ const BannerSlider = () => {
       image: banner_phimhanhdong.src,
       title: 'Phim Hành Động',
       description: 'Những pha hành động nghẹt thở đang chờ bạn.',
-      link: 'hanh-dong'
+      link: '/the-loai/hanh-dong'
     },
     {
       image: banner_phimhoathinh.src,
