@@ -2,6 +2,8 @@
 import Link from 'next/link';
 import '../css/Header.css';
 import { useEffect, useState } from 'react';
+import logo from '../../assets/img/logo-1.png'
+import Image from 'next/image';
 const Header = () => {
   const [category, setCategory] = useState([])
   const [country, setCountry] = useState([])
@@ -38,7 +40,7 @@ const closeSidebar = () => {
   return (
     <header className='header'>
       <div className='logo'>
-        <Link href="/">Phim Mới</Link>
+        <Link href="/"><Image width={200} height={70} src={logo} alt='logo-xem-phim-truc-tuyen'></Image></Link>
       </div>
 
       <div className='menu-container'>
@@ -63,7 +65,7 @@ const closeSidebar = () => {
           <li className='dropdown'>
             <span>Năm phát hành</span>
             <ul className='dropdownMenu'>
-                {years.map(item => <li><Link href={`/nam/${item}`}>{item}</Link></li> )}
+                {years.map(item => <li className='year-li'><Link href={`/nam/${item}`}>{item}</Link></li> )}
             </ul>
           </li>
           <li className='top-phim'><Link href="/top-phim">Top phim</Link></li>
