@@ -1,0 +1,84 @@
+/* Style cho form tìm kiếm */
+.container {
+  width: 100%;
+}
+
+.search-input-form {
+  margin: 10px;
+  margin-right: 50px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  position: relative;
+  border-radius: 40px;
+  width: 380px;
+  float: right;
+  transition: width 0.3s ease;
+}
+/* Style cho input tìm kiếm */
+.search-input-form input[type="text"] {
+  flex: 1;
+  padding-top: 10px;
+  padding-bottom:10px ;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  font-size: 16px;
+  height: 30px;
+  width: 100%;
+}
+.link{
+  position: absolute;
+  right: -10px;
+  top: 0;
+  width: 40px;
+  height: 100%;
+  z-index: 10;
+}
+
+.img-icon {
+  position: absolute;
+  right: 10px;
+  top: 16px;
+}
+.img-icon:hover{
+  cursor: pointer;
+}
+/* Reponsive cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .search-input-form {
+    width: 100%;
+    margin-right: 0;
+    border-radius: 20px;
+  }
+
+  .search-input-form input[type="text"] {
+    font-size: 14px;
+    height: 25px;
+    border-radius: 20px;
+  }
+
+  .img-icon {
+    right: 8px;
+    top: 12px;
+  }
+}
+
+/* Reponsive cho màn hình rất nhỏ */
+@media (max-width: 480px) {
+  .search-input-form {
+    width: 100%;
+    margin-right: 0;
+    border-radius: 15px;
+  }
+
+  .search-input-form input[type="text"] {
+    font-size: 12px;
+    height: 20px;
+    padding: 8px;
+    border-radius: 15px;
+  }
+
+  .img-icon {
+    right: 5px;
+    top: 10px;
+  }
+}

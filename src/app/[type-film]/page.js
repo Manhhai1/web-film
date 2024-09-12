@@ -6,11 +6,11 @@ import { useParams } from 'next/navigation';
 import ReactPaginate from 'react-paginate';
 import React, { useEffect, useState } from 'react';
 import BannerSlider from '@/components/layouts/BannerSlider';
-
+import MovieSearch from '@/components/layouts/MovieSearch';
 const Page = () => {
   const params = useParams(); // Get the dynamic route parameters
   const typeFilm = params['type-film']; // Access the dynamic parameter
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState(0);
   const [totalPages, setTotalPages] = useState(10); // Tổng số trang (ví dụ);
   const [type, setType] = useState({
     type_film: '',
@@ -30,12 +30,12 @@ const Page = () => {
       ...prevType,
       link: `https://phimapi.com/v1/api/danh-sach/${typeFilm}?page=${currentPage.selected+1}`
     }));
-    console.log(type)
   }, [currentPage, totalPages]);
 
 
   return (
     <div>
+       <MovieSearch></MovieSearch>
       <BannerSlider></BannerSlider>
       <Section type={type} onTotalPagesChange={handleTotalPagesChange} />
       <ReactPaginate

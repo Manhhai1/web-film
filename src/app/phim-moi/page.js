@@ -5,7 +5,7 @@ import Section from '@/components/layouts/Section';
 import ReactPaginate from 'react-paginate';
 import React, { useEffect, useState } from 'react';
 import BannerSlider from '@/components/layouts/BannerSlider';
-
+import MovieSearch from '@/components/layouts/MovieSearch';
 const Page = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(10); // Initial totalPages, to be updated by Section
@@ -34,6 +34,7 @@ const Page = () => {
 
   return (
     <div>
+      <MovieSearch></MovieSearch>
       <BannerSlider></BannerSlider>
       <Section type={type} onTotalPagesChange={handleTotalPagesChange} />
       <ReactPaginate

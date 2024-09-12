@@ -118,7 +118,7 @@ nav {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1000;
+  z-index: 10;
   top: 0;
   left: 0;
   background-color: #333;
@@ -134,7 +134,7 @@ nav {
   margin: 0;
 }
 
-.sidebar ul li {
+.sidebar .ul-parent li {
   padding: 10px 15px;
   text-align: left;
   border-bottom: 1px solid #444;
@@ -143,7 +143,6 @@ nav {
 .sidebar ul li a {
   color: #fff;
   text-decoration: none;
-  display: block;
   transition: color 0.3s ease;
 }
 
@@ -153,32 +152,37 @@ nav {
 
 .sidebar .closebtn {
   position: absolute;
-  top: 0;
+  top: 15px;
   right: 15px;
   font-size: 36px;
-}
-
-/* Dropdown functionality */
-.sidebar ul .dropdownMenu {
-  display: none;
-  margin-left: 20px;
-  padding-top: 10px;
-}
-
-.sidebar ul li.dropdown:hover .dropdownMenu {
-  display: block;
-  animation: fadeIn 0.3s ease-in-out;
-}
-
-.sidebar ul .dropdownMenu li {
-  padding: 5px 0;
-}
-
-.sidebar ul .dropdownMenu li a {
   color: #fff;
 }
 
-.sidebar ul .dropdownMenu li a:hover {
+/* Dropdown functionality */
+
+.sidebar .dropdown>.dropdownMenu-child {
+  padding-top: 10px;
+  border: solid 1px gray;
+  margin-top: 10px;
+  position: relative;
+  display: flex; /* Keep this to enable flex layout */
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+  animation: fadeIn 0.3s ease-in-out;
+  z-index: 100;
+}
+
+.dropdownMenu-child li {
+  padding: 5px 0;
+  width: 120px; 
+  height: 20px;
+}
+ .dropdownMenu-child li a {
+  color: #fff;
+  width: 100%;
+}
+ .dropdownMenu-child li a:hover {
   color: #ff9601;
 }
 .openbtn {
@@ -211,5 +215,6 @@ nav {
   }
   .openbtn{
     display: block;
+    width: 40px;
   }
 }

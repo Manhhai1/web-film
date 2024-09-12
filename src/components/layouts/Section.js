@@ -43,7 +43,7 @@ function Section({ type, onTotalPagesChange }) {
         </div>
         <div className="list-film">
             {films?.map((movie) => (
-              <MovieCard key={movie._id} movie={movie} />
+              <MovieCard movie={movie} />
             ))}
         </div></>
        }

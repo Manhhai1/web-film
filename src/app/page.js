@@ -2,6 +2,7 @@
 import Layout from '../components/layouts/Layout'
 import Section from '../components/layouts/Section'
 import BannerSlider from '@/components/layouts/BannerSlider';
+import MovieSearch from '@/components/layouts/MovieSearch';
 const Home = () => {
   const list_section = [
     { type_film: 'phim_le', name_type: 'Phim lẻ', link: 'https://phimapi.com/v1/api/danh-sach/phim-le' },
@@ -17,6 +18,7 @@ const Home = () => {
         {/* <Section type={list_section[0]}></Section>
         <Section type={list_section[1]}></Section>
         <Section type={list_section[2]}></Section> */}
+          <MovieSearch> </MovieSearch>
         <BannerSlider></BannerSlider>
         <Section type={list_section[4]}></Section>
         <Section type={list_section[3]}></Section>
