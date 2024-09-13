@@ -1,8 +1,6 @@
 // src/components/movies/MovieCard.js
 'use client'
 import './MovieCard.css'
-import Image from 'next/image';
-import img_item from '../../assets/img/ee307b676d8d45de50b07cc206c85787.jpg'
 import play_icon from '../../assets/img/icons8-play-48.png'
 import Link from 'next/link';
 const checkString = (s) => {

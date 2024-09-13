@@ -39,7 +39,7 @@ const Header = () => {
   return (
     <header className='header'>
       <div className='logo'>
-        <Link href="/"><Image width={200} height={70} src={logo} alt='logo-xem-phim-truc-tuyen' /></Link>
+        <Link href="/"><Image width={207} height={70} src={logo} alt='logo-xem-phim-truc-tuyen' /></Link>
       </div>
 
       <div className='menu-container'>
