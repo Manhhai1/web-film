@@ -1,13 +1,10 @@
 // src/components/layouts/Layout.js
 import Header from './Header';
 import Footer from './Footer';
-import Sidebar from './Sidebar';
-
 const Layout = ({ children }) => {
   return (
     <>
       <Header />
-
       <Footer />
     </>
   );

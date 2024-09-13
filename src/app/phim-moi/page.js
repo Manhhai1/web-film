@@ -6,9 +6,10 @@ import ReactPaginate from 'react-paginate';
 import React, { useEffect, useState } from 'react';
 import BannerSlider from '@/components/layouts/BannerSlider';
 import MovieSearch from '@/components/layouts/MovieSearch';
+
 const Page = () => {
-  const [currentPage, setCurrentPage] = useState(1);
-  const [totalPages, setTotalPages] = useState(10); // Initial totalPages, to be updated by Section
+  const [currentPage, setCurrentPage] = useState(1); // Initialize with page 1
+  const [totalPages, setTotalPages] = useState(10); // Default value, to be updated by Section
   const [type, setType] = useState({
     type_film: '',
     name_type: 'Phim mới cập nhật',
@@ -34,8 +35,8 @@ const Page = () => {
 
   return (
     <div>
-      <MovieSearch></MovieSearch>
-      <BannerSlider></BannerSlider>
+      <MovieSearch />
+      <BannerSlider />
       <Section type={type} onTotalPagesChange={handleTotalPagesChange} />
       <ReactPaginate
         previousLabel={'«'}
@@ -48,6 +49,7 @@ const Page = () => {
         onPageChange={handlePageClick} // Callback when page changes
         containerClassName={'pagination'}
         activeClassName={'active'}
+        forcePage={currentPage - 1} // Ensure the current page is selected
       />
     </div>
   );

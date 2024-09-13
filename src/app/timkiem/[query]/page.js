@@ -1,6 +1,6 @@
-// app/[type-film]/page.js
 "use client";
-import './page.css'
+
+import './page.css';
 import { useParams } from 'next/navigation';
 import ReactPaginate from 'react-paginate';
 import React, { useEffect, useState } from 'react';
@@ -8,77 +8,79 @@ import BannerSlider from '@/components/layouts/BannerSlider';
 import MovieSearch from '@/components/layouts/MovieSearch';
 import MovieCard from '@/components/movies/MovieCard';
 import Loading from '@/components/layouts/Loading';
+
 const Page = () => {
-  const params = useParams()
-  const query = params['query']
-  console.log(query)
+  const { query } = useParams();
   const [currentPage, setCurrentPage] = useState(0);
   const [totalPages, setTotalPages] = useState(10);
-  const [items, setItems] = useState([])
-  const [dataPage, setDataPage] = useState([])
-  const [isLoading, setLoading] =useState(true)
+  const [items, setItems] = useState([]);
+  const [dataPage, setDataPage] = useState([]);
+  const [isLoading, setLoading] = useState(true);
+  const [data, setData] = useState('');
+
+  // Handle page change
   const handlePageClick = (page) => {
-    setCurrentPage(page); // Update current page
-    };
-  const [data, setData] =useState('')
+    setCurrentPage(page.selected); // Use selected page from the event
+  };
+
+  // Update displayed items for current page
   const listDataPage = (page, items) => {
-    let dataItems = []
-    if (items.length >= 10) {
-      let j= 0
-      for (let i = (page) * 10; i < (page) * 10 + 10; i++){
-        dataItems[j] = items[i]
-        j++
-      }
-      setDataPage(dataItems)
-   }
-    else setDataPage(items)
-    return dataItems
-  }
+    const startIndex = page * 10;
+    const dataItems = items.slice(startIndex, startIndex + 10);
+    setDataPage(dataItems);
+  };
+
   useEffect(() => {
-    async function fetchData() {
+    // Fetch data based on query parameter
+    const fetchData = async () => {
       try {
-          setLoading(true)
-          const res = await fetch(`https://phimapi.com/v1/api/tim-kiem?keyword=${query}`);
-          const movies = await res.json();    
-          setData(movies.data)
-          setItems(movies?.data.items)
-          if (Math.round(movies?.data.params?.pagination?.totalItems / 10 > 10)) {
-            setTotalPages(10)
-          }
-          else setTotalPages(Math.round(movies?.data.params?.pagination?.totalItems / 10))
-          listDataPage(currentPage, movies.data.items)
-          setLoading(false)
-        } catch (error) {
-          console.error('Error fetching movies:', error);
-        }
+        setLoading(true);
+        const res = await fetch(`https://phimapi.com/v1/api/tim-kiem?keyword=${query}`);
+        const movies = await res.json();
+        const totalItems = movies?.data.params?.pagination?.totalItems || 0;
+
+        setData(movies.data);
+        setItems(movies?.data.items);
+        setTotalPages(Math.ceil(totalItems / 10)); // Calculate total pages based on items
+
+        listDataPage(currentPage, movies.data.items);
+        setLoading(false);
+      } catch (error) {
+        console.error('Error fetching movies:', error);
+        setLoading(false);
       }
-      fetchData();
-  }, []);
-  useEffect(() => {
-    listDataPage(currentPage.selected, items)
-  }, [currentPage])
+    };
+
+    fetchData();
+  }, [query, currentPage]); // Re-fetch if query or page changes
+
   return (
     <>
-      {isLoading ? <Loading></Loading> : <div>
-        <MovieSearch></MovieSearch>
-      <BannerSlider></BannerSlider>
-      <h2 className='name-title'>{data.titlePage}</h2>
-      <div className="list-items">
-      {dataPage.map((item)=> (<MovieCard movie={item}></MovieCard>))}
-      </div>
-      <ReactPaginate
-        previousLabel={'«'}
-        nextLabel={'»'}
-        breakLabel={'...'}
-        breakClassName={'break-me'}
-        pageCount={totalPages} // Tổng số trang
-        marginPagesDisplayed={2}
-        pageRangeDisplayed={3}
-        onPageChange={handlePageClick} // Hàm callback khi trang thay đổi
-        containerClassName={'pagination'}
-        activeClassName={'active'}
-      />
-        </div> }
+      {isLoading ? (
+        <Loading />
+      ) : (
+        <div>
+          <MovieSearch />
+          <BannerSlider />
+          <h2 className='name-title'>{data.titlePage}</h2>
+          <div className="list-items">
+            {dataPage.map((item) => (
+              <MovieCard key={item.id} movie={item} />
+            ))}
+          </div>
+          <ReactPaginate
+            previousLabel={'«'}
+            nextLabel={'»'}
+            breakLabel={'...'}
+            pageCount={totalPages} // Total number of pages
+            marginPagesDisplayed={2}
+            pageRangeDisplayed={3}
+            onPageChange={handlePageClick} // Callback for page change
+            containerClassName={'pagination'}
+            activeClassName={'active'}
+          />
+        </div>
+      )}
     </>
   );
 };

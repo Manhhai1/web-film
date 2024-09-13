@@ -1,6 +1,5 @@
-// app/[type-film]/page.js
 "use client";
-import './page.css'
+import './page.css';
 import Section from '@/components/layouts/Section';
 import { useParams } from 'next/navigation';
 import ReactPaginate from 'react-paginate';
@@ -16,7 +15,7 @@ const Page = () => {
   const [type, setType] = useState({
     type_film: '',
     name_type: '',
-    link: `https://phimapi.com/v1/api/quoc-gia/${country}`
+    link: `https://phimapi.com/v1/api/quoc-gia/${country}?page=1`
   });
 
   const handlePageClick = (page) => {
@@ -24,7 +23,7 @@ const Page = () => {
   };
 
   const handleTotalPagesChange = (pages) => {
-    setTotalPages(pages);
+    setTotalPages(pages); // Update total pages based on data from `Section` component
   };
 
   useEffect(() => {
