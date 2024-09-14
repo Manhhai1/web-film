@@ -44,9 +44,8 @@ const Header = () => {
 
       <div className='menu-container'>
         <ul className='menu'>
+
           <li><Link href="/phim-moi">Phim mới</Link></li>
-          <li><Link href="/hoat-hinh">Hoạt hình</Link></li>
-          <li><Link href="/tv-shows">Tv Shows</Link></li>
           <li><Link href="/phim-le">Phim lẻ</Link></li>
           <li><Link href="/phim-bo">Phim bộ</Link></li>
           <li className='dropdown'>
@@ -73,6 +72,8 @@ const Header = () => {
               ))}
             </ul>
           </li>
+          <li><Link href="/hoat-hinh">Hoạt hình</Link></li>
+          <li><Link href="/tv-shows">Tv Shows</Link></li>
           <li className='top-phim'><Link href="/top-phim">Top phim</Link></li>
         </ul>
 

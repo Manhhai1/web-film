@@ -6,7 +6,7 @@ import Loading from '../layouts/Loading'
 import Link from 'next/link';
 import '../css/Section.css';
 
-function Section({ type, onTotalPagesChange }) {
+function Section({ type, onTotalPagesChange}) {
   const [films, setFilms] = useState([]);
   const [titlePage, setTitlePage] = useState('');
   const [totalPages, setTotalPages] = useState(0)
@@ -39,11 +39,11 @@ function Section({ type, onTotalPagesChange }) {
         isLoading ? <Loading className='loading'></Loading> : <>
         <h2 className='name-section'>{titlePage}</h2>
         <div className='btn-view'>
-          <Link href="#"><span>Xem tất cả</span></Link>
+          <Link href={type.href||"#"}><span>Xem tất cả</span></Link>
         </div>
         <div className="list-film">
             {films?.map((movie) => (
-              <MovieCard movie={movie} />
+              <MovieCard movie={movie} key={movie._id} />
             ))}
         </div></>
        }

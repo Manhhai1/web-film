@@ -16,9 +16,6 @@
   text-decoration: none;
   margin-left: 20px;
 }
-.logo{
-  width: 207px;
-}
 
 nav {
   flex-grow: 1;
@@ -81,7 +78,7 @@ nav {
   left: 0;
   padding: 10px 0;
   list-style: none;
-  width: 400px;
+  width: 320px;
   border: solid 1px gray;
   z-index: 10;
   max-height: 0; 
@@ -210,7 +207,7 @@ nav {
 
 /* Responsive Design */
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .menu-container>.menu{
     display: none;
   }

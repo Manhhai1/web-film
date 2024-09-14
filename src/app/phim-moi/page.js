@@ -1,58 +1,42 @@
-"use client";
+import MoviePageContent from './MoviePageContent';
 
-import './page.css';
-import Section from '@/components/layouts/Section';
-import ReactPaginate from 'react-paginate';
-import React, { useEffect, useState } from 'react';
-import BannerSlider from '@/components/layouts/BannerSlider';
-import MovieSearch from '@/components/layouts/MovieSearch';
+export async function generateMetadata() {
+ 
 
-const Page = () => {
-  const [currentPage, setCurrentPage] = useState(1); // Initialize with page 1
-  const [totalPages, setTotalPages] = useState(10); // Default value, to be updated by Section
-  const [type, setType] = useState({
-    type_film: '',
-    name_type: 'Phim mới cập nhật',
-    link: `https://phimapi.com/danh-sach/phim-moi-cap-nhat?page=1` // Start with page 1
-  });
-
-  const handlePageClick = (data) => {
-    const selectedPage = data.selected + 1; // react-paginate uses zero-based index
-    setCurrentPage(selectedPage);
+  return {
+    title:  'Phim Mới | Phim HD | Xem phim nhanh | Phim VietSub | Thuyết Minh Hay Nhất',
+    description:  'Phim Mới chất lượng cao miễn phí. Xem phim hd VietSub. Phim thuyết minh chất lượng HD. Kho phimmoi.net chuẩn nhanh online hay hấp dẫn.',
+    keywords: 'Phim Trung Quốc, Phim Hàn Quốc, Phim chiếu rạp, Phim hành động, Phim kinh di, Phim hài, Phim hoạt hình, Phim Mỹ, Phim Võ Thuật, Phim bộ hay nhất, Xem phim Online',
+    viewport: 'width=device-width, initial-scale=1.0, user-scalable=yes',
+    robots: 'index,follow',
+    'theme-color': '#ff8a00',
+    openGraph: {
+      site_name: 'PhimMoi',
+      locale: 'vi_VN',
+      title:  'Phim Mới | Phim HD | Xem phim nhanh | Phim VietSub | Thuyết Minh Hay Nhất',
+      description:  'Phim Mới chất lượng cao miễn phí. Xem phim hd VietSub. Phim thuyết minh chất lượng HD. Kho phimmoi.net chuẩn nhanh online hay hấp dẫn.',
+      type: 'website',
+      url:  'https://web-film-pink.vercel.app/',
+    },
+    twitter: {
+      card: 'summary',
+      title:  'Phim Mới | Phim HD | Xem phim nhanh | Phim VietSub | Thuyết Minh Hay Nhất',
+      description: 'Phim Mới chất lượng cao miễn phí. Xem phim hd VietSub. Phim thuyết minh chất lượng HD. Kho phimmoi.net chuẩn nhanh online hay hấp dẫn.',
+    },
+   
+    scripts: [
+      { src: 'https://connect.facebook.net/vi_VN/sdk.js?hash=2f12450ef15f9608f729a8a02650fa12', async: true, crossorigin: 'anonymous' },
+      { id: 'facebook-jssdk', src: '//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v16.0&appId=1057881674616601&autoLogAppEvents=1' },
+      { src: 'https://www.google-analytics.com/analytics.js', async: true },
+      { src: 'https://www.googletagmanager.com/gtag/js?id=G-Y26KQV2LK8&l=dataLayer&cx=c', async: true },
+    ],
   };
+}
 
-  const handleTotalPagesChange = (pages) => {
-    setTotalPages(pages);
-  };
-
-  useEffect(() => {
-    // Update the link when currentPage changes
-    setType(prevType => ({
-      ...prevType,
-      link: `https://phimapi.com/danh-sach/phim-moi-cap-nhat?page=${currentPage}`
-    }));
-  }, [currentPage]);
-
+export default async function Page() {
   return (
-    <div>
-      <MovieSearch />
-      <BannerSlider />
-      <Section type={type} onTotalPagesChange={handleTotalPagesChange} />
-      <ReactPaginate
-        previousLabel={'«'}
-        nextLabel={'»'}
-        breakLabel={'...'}
-        breakClassName={'break-me'}
-        pageCount={totalPages} // Total number of pages
-        marginPagesDisplayed={2}
-        pageRangeDisplayed={5}
-        onPageChange={handlePageClick} // Callback when page changes
-        containerClassName={'pagination'}
-        activeClassName={'active'}
-        forcePage={currentPage - 1} // Ensure the current page is selected
-      />
-    </div>
+    <>
+      <MoviePageContent />
+    </>
   );
-};
-
-export default Page;
+}

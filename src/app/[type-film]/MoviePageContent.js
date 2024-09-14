@@ -7,8 +7,6 @@ import Section from '@/components/layouts/Section';
 import BannerSlider from '@/components/layouts/BannerSlider';
 import MovieSearch from '@/components/layouts/MovieSearch';
 import './page.css';
-
-
 const Page = () => {
   const params = useParams();
   const typeFilm = params['type-film'];
@@ -17,7 +15,8 @@ const Page = () => {
   const [type, setType] = useState({
     type_film: '',
     name_type: '',
-    link: `https://phimapi.com/v1/api/danh-sach/${typeFilm}?page=1`
+    link: `https://phimapi.com/v1/api/danh-sach/${typeFilm}?page=1`,
+    href: `/${typeFilm}`
   });
 
   const handlePageClick = (data) => {
@@ -27,7 +26,6 @@ const Page = () => {
   const handleTotalPagesChange = (pages) => {
     setTotalPages(pages);
   };
-
   useEffect(() => {
     setType(prevType => ({
       ...prevType,
@@ -39,14 +37,14 @@ const Page = () => {
     <div>
       <MovieSearch />
       <BannerSlider />
-      <Section type={type} onTotalPagesChange={handleTotalPagesChange} />
+      <Section type={type} onTotalPagesChange={handleTotalPagesChange}  />
       <ReactPaginate
         previousLabel={'«'}
         nextLabel={'»'}
         breakLabel={'...'}
         breakClassName={'break-me'}
         pageCount={totalPages}
-        marginPagesDisplayed={2}
+        marginPagesDisplayed={0}
         pageRangeDisplayed={3}
         onPageChange={handlePageClick}
         containerClassName={'pagination'}
