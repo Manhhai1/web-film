@@ -7,6 +7,6 @@ export default function robots() {
         disallow: ['/include/', '/tim-kiem/', '/tag/'] // Disallow specific paths
       }
     ],
-    sitemap: 'https://web-film-pink.vercel.app/sitemap.xml'
+    sitemap: 'https:/top-phim.pro/sitemap.xml'
   };
 }

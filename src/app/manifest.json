@@ -1,7 +1,7 @@
 {
-    "name": "Streamming movies with HM",
-    "short_name": "Streamming movies",
-    "description": "Watch the latest movies online",
+    "name": "Top-phim.pro",
+    "short_name": "Top Phim",
+    "description": "Phim Mới | Phim HD | Xem phim nhanh | Phim VietSub | Thuyết Minh Hay Nhất | Top Phim Hay",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",

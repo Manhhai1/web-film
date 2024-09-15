@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap() {
-  const baseUrl = 'https://web-film-pink.vercel.app/';
+  const baseUrl = 'https://top-phim.pro/';
   const lastMod = '2024-09-14T00:00:00+00:00';
   return [
     {

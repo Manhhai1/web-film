@@ -45,7 +45,7 @@ const Page = () => {
         breakLabel={'...'}
         breakClassName={'break-me'}
         pageCount={totalPages} // Total pages
-        marginPagesDisplayed={2}
+        marginPagesDisplayed={0}
         pageRangeDisplayed={3}
         onPageChange={handlePageClick} // Callback function when page changes
         containerClassName={'pagination'}

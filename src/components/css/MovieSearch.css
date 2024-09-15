@@ -1,84 +1,87 @@
-/* Style cho form tìm kiếm */
-.container {
-  width: 100%;
-}
-
-.search-input-form {
-  margin: 10px;
-  margin-right: 50px;
-  border: 1px solid #ddd;
-  background-color: #f9f9f9;
-  position: relative;
-  border-radius: 40px;
-  width: 380px;
-  float: right;
-  transition: width 0.3s ease;
-}
-/* Style cho input tìm kiếm */
-.search-input-form input[type="text"] {
-  flex: 1;
-  padding-top: 10px;
-  padding-bottom:10px ;
+/* General styling for the input */
+input {
+  width: 100%; /* Full width in its container */
+  max-width: 400px; /* Maximum width */
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
   border: 1px solid #ccc;
-  border-radius: 40px;
+  border-radius: 5px;
   font-size: 16px;
-  height: 30px;
-  width: 100%;
-}
-.link{
-  position: absolute;
-  right: -10px;
-  top: 0;
-  width: 40px;
-  height: 100%;
-  z-index: 10;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  float: right;
 }
 
-.img-icon {
-  position: absolute;
-  right: 10px;
-  top: 16px;
-}
-.img-icon:hover{
-  cursor: pointer;
-}
-/* Reponsive cho màn hình nhỏ */
+/* Adjusting the input field for small screens */
 @media (max-width: 768px) {
-  .search-input-form {
-    width: 100%;
-    margin-right: 0;
-    border-radius: 20px;
-  }
-
-  .search-input-form input[type="text"] {
+  input {
+    width: 90%; /* Reducing width for smaller screens */
     font-size: 14px;
-    height: 25px;
-    border-radius: 20px;
+    padding: 8px;
   }
-
-  .img-icon {
-    right: 8px;
-    top: 12px;
+}
+.container{
+  position: relative;
+}
+/* Further adjustments for very small screens */
+@media (max-width: 480px) {
+  input {
+    width: 85%;
+    font-size: 13px;
+    padding: 6px;
   }
 }
 
-/* Reponsive cho màn hình rất nhỏ */
+/* Styling for the search container */
+
+.link {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+
+.search .img-icon {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.img-icon:hover {
+  transform: scale(1.2); /* Add a hover effect */
+}
+
+/* For smaller screens, adjust the search container */
+@media (max-width: 768px) {
+  .search {
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .search .link {
+    padding: 6px 8px;
+  }
+
+  .search .img-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
 @media (max-width: 480px) {
-  .search-input-form {
-    width: 100%;
-    margin-right: 0;
-    border-radius: 15px;
+  .search {
+    gap: 3px;
   }
 
-  .search-input-form input[type="text"] {
-    font-size: 12px;
-    height: 20px;
-    padding: 8px;
-    border-radius: 15px;
+  .search .link {
+    padding: 5px 7px;
+    font-size: 13px;
   }
 
-  .img-icon {
-    right: 5px;
-    top: 10px;
+  .search .img-icon {
+    width: 16px;
+    height: 16px;
   }
 }

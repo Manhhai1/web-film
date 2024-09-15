@@ -12,12 +12,12 @@ export async function generateMetadata({ params }) {
   return {
     title: `${data.name} | ${data.origin_name}` || 'Default Title',
     description: data.content || 'Default description',
-    url: `https://web-film-pink.vercel/infor/${filmSlug}`,
+    url: `https://top-phim.pro/infor/${filmSlug}`,
     images:[data.thumb_url],
     openGraph: {
       title: data.name || 'Default Title',
       description: data.content || 'Default description',
-      url: `https://web-film-pink.vercel/infor/${filmSlug}`,
+      url: `https://top-phim.pro/infor/${filmSlug}`,
       images:[data.thumb_url]
     }
   };

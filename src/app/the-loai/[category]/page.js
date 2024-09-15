@@ -14,8 +14,8 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: seoOnPage.titleHead || 'Default Title',
       description: seoOnPage.descriptionHead || 'Default description',
-      url: seoOnPage.og_url || 'https://defaulturl.com',
-      images: seoOnPage.og_image || []
+      url: `http://top-phim.pro/the-loai/${category}`,
+      images: seoOnPage?.og_image?.map((item) => `https://phimimg.com/${item}`) || []
     }
   };
 }
