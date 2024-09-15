@@ -1,4 +1,3 @@
-
 import MoviePageContent from './MoviePageContent';
 
 export async function generateMetadata({ params }) {
@@ -9,14 +8,15 @@ export async function generateMetadata({ params }) {
     return data?.data?.seoOnPage;
   }
   const seoOnPage = await fetchData();
+  
   return {
-    title: seoOnPage.titleHead || 'Default Title',
-    description: seoOnPage.descriptionHead || 'Default description',
+    title: seoOnPage?.titleHead || 'Default Title',
+    description: seoOnPage?.descriptionHead || 'Default description',
     openGraph: {
-      title: seoOnPage.titleHead || 'Default Title',
-      description: seoOnPage.descriptionHead || 'Default description',
-      url: seoOnPage.og_url || 'https://defaulturl.com',
-      images: seoOnPage.og_image || []
+      title: seoOnPage?.titleHead || 'Default Title',
+      description: seoOnPage?.descriptionHead || 'Default description',
+      url: `https://top-phim.pro/${typeFilm}`,
+      images: seoOnPage?.og_image?.map((item) => `https://phimimg.com/${item}`) || []
     }
   };
 }
@@ -24,8 +24,7 @@ export async function generateMetadata({ params }) {
 export default async function Page() {
   return (
     <>
-      <MoviePageContent></MoviePageContent>
+      <MoviePageContent />
     </>
-      );
+  );
 }
-
