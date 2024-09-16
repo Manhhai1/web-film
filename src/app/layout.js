@@ -4,7 +4,7 @@ import Footer from '@/components/layouts/Footer';
 import Head from 'next/head';
 import './globals.css';  // Đưa vào các style chung
 export const metadata = {
-  title:  'top-phim|Top Phim|Top-phim|Phim Mới | Phim HD | Xem phim nhanh | Phim VietSub | Thuyết Minh Hay Nhất | Top Phim Hay',
+  title:  'top-phim | Top Phim | Top-phim | Phim Mới | Phim HD | Xem phim nhanh | Phim VietSub | Thuyết Minh Hay Nhất | Top Phim Hay',
   description:  'Phim Mới chất lượng cao miễn phí. Xem phim hd VietSub. Phim thuyết minh chất lượng HD. Kho top-phim.pro chuẩn nhanh online hay hấp dẫn.',
   keywords: 'Phim Trung Quốc, Phim Hàn Quốc, Phim chiếu rạp, Phim hành động, Phim kinh di, Phim hài, Phim hoạt hình, Phim Mỹ, Phim Võ Thuật, Phim bộ hay nhất, Xem phim Online,Xem phim HD miễn phí, Phim miễn phí, Phim mới nhất,Phim hay, Xem phim chất lượng cao,Xem phim bản quyền',
   googleSiteVerification: 'IrKaKEKGaUZhDogmifuTNPDLlxlhOHFk_se1nuE1-F0',
