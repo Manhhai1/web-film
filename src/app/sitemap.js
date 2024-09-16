@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap() {
-  const baseUrl = 'https://top-phim.pro/';
+  const baseUrl = 'https://top-phim.pro';
   const lastMod = '2024-09-14T00:00:00+00:00';
   return [
     {
@@ -30,6 +30,12 @@ export default function sitemap() {
       },
       {
         url: `${baseUrl}/tv-shows`,
+        lastModified: '2024-09-14',
+        changeFrequency: 'daily',
+        priority: 0.9
+      },
+      {
+        url: `${baseUrl}/hoat-hinh`,
         lastModified: '2024-09-14',
         changeFrequency: 'daily',
         priority: 0.9
@@ -166,5 +172,47 @@ export default function sitemap() {
         changeFrequency: 'daily',
         priority: 0.9,
       },
+      { url: "https://top-phim.pro/quoc-gia/Trung-Quoc", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Han-Quoc", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Nhat-Ban", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Thai-Lan", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Au-My", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Dai-Loan", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Hong-Kong", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/An-Do", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Anh", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Phap", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Canada", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Quoc-Gia-Khac", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Duc", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Tay-Ban-Nha", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Tho-Nhi-Ky", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Han-Lan", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Indonesia", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Nga", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Mexico", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Ba-Lan", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Uc", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Thuy-Dien", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Malaysia", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Brazil", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Philippines", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Bo-Dao-Nha", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Y", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Dan-Mach", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/UAE", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Na-Uy", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Thuy-Si", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Chau-Phi", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Nam-Phi", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Ukraina", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/A-Rap-Xe-Ut", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Bi", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Ireland", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Colombia", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Phan-Lan", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Viet-Nam", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Chile", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Hy-Lap", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
   ];
 }
