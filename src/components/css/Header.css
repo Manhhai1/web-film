@@ -99,9 +99,11 @@ nav {
   max-height: 0; 
   overflow: hidden; 
 }
-
+.dropdownMenu li {
+  width: 110px;
+}
 .dropdownMenu li h3{
-  width: 120px;
+  width: 110px;
   padding: 5px;
   margin: 0;
   display: block;
