@@ -15,7 +15,7 @@ const MovieSearch = () => {
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="Tìm kiếm phim theo diễn viên, thể loại, năm..."
+        placeholder="Tìm kiếm phim..."
       />
       <Link className='link' href={`/timkiem/${query}`}>
         <Image 
