@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link'; // Import Link từ Next.js
 import '../css/MovieSearch.css';
 import Image from 'next/image';
-import icon_search from '../../assets/img/search.png';
+import icon_search from '../../assets/img/search.webp';
 
 const MovieSearch = () => {
   const [query, setQuery] = useState('');

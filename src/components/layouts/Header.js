@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import '../css/Header.css'; // Custom styles for the header
-import logo from '../../assets/img/logo-1.png';
+import logo from '../../assets/img/logo-1.webp';
 
 const Header = () => {
   const [category, setCategory] = useState([]);

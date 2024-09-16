@@ -54,7 +54,7 @@
     height: 50px;
     width: 50px;
     left: 40%;
-    top: 45%;
+    top: 40%;
     position: absolute;
     border-radius: 50%;
     scale: 1.5;
@@ -102,12 +102,13 @@
     }
 
     .item .name-film {
-        font-size: 14px;
+        font-size: 16px;
         padding: 12px;
     }
 
     .item > .play-icon {
         height: 48px;
         width: 48px;
+        left: 35%;
     }
 }

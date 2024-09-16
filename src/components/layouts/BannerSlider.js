@@ -5,9 +5,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css'; // Ensure correct CSS file
 import { Navigation, Pagination, Autoplay } from 'swiper/modules'; // Ensure correct module import
 import '../css/BannerSlider.css'; // Your custom styles
-import banner_phimmoi from '../../assets/img/poster-phim-moi.jpg';
-import banner_phimhanhdong from '../../assets/img/poster-phim-hanh-dong.jpg'
-import banner_phimhoathinh from '../../assets/img/poster-phim-hoat-hinh-1.jpg'
+import banner_phimmoi from '../../assets/img/poster-phim-moi.webp';
+import banner_phimhanhdong from '../../assets/img/poster-phim-hanh-dong.webp'
+import banner_phimhoathinh from '../../assets/img/poster-phim-hoat-hinh-1.webp'
 const BannerSlider = () => {
   const slides = [
     {

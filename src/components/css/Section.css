@@ -2,7 +2,7 @@
 .list-film {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 94%;
     justify-content: center;
     align-items: center;
     text-align: center;

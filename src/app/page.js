@@ -14,7 +14,7 @@ const Home = () => {
   return (
     
     <div>
-      <div style={movieGridStyle}>
+      <div >
           <MovieSearch> </MovieSearch>
         <BannerSlider></BannerSlider>
         <Section type={list_section[4]}></Section>
@@ -27,10 +27,6 @@ const Home = () => {
   );
 };
 
-const movieGridStyle = {
-  display: 'flex',
-  flexWrap: 'wrap',
-};
 
 Home.getLayout = function getLayout(page) {
   return (
