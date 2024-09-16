@@ -38,91 +38,91 @@ const Header = () => {
 
   return (
     <header className='header'>
-      <div className='logo'>
-        <Link href="/"><Image width={207} height={70} src={logo} alt='logo-xem-phim-truc-tuyen' /></Link>
-      </div>
-
-      <div className='menu-container'>
-        <ul className='menu'>
-
-          <li><Link href="/phim-moi">Phim mới</Link></li>
-          <li><Link href="/phim-le">Phim lẻ</Link></li>
-          <li><Link href="/phim-bo">Phim bộ</Link></li>
-          <li className='dropdown'>
-            <span>Thể loại</span>
-            <ul className='dropdownMenu'>
-              {category.map(item => (
-                <li key={item.slug}><Link href={`/the-loai/${item.slug}`}>{item.name}</Link></li>
-              ))}
-            </ul>
-          </li>
-          <li className='dropdown'>
-            <span>Quốc gia</span>
-            <ul className='dropdownMenu'>
-              {country.map(item => (
-                <li key={item.slug}><Link href={`/quoc-gia/${item.slug}`}>{item.name}</Link></li>
-              ))}
-            </ul>
-          </li>
-          <li className='dropdown'>
-            <span>Năm phát hành</span>
-            <ul className='dropdownMenu'>
-              {years.map(item => (
-                <li  className='year-li' key={item}><Link href={`/nam/${item}`}>{item}</Link></li>
-              ))}
-            </ul>
-          </li>
-          <li><Link href="/hoat-hinh">Hoạt hình</Link></li>
-          <li><Link href="/tv-shows">Tv Shows</Link></li>
-          <li className='top-phim'><Link href="/top-phim">Top phim</Link></li>
-        </ul>
-
-        {/* Sidebar */}
-        <div id="sidebar" className='sidebar'>
-          <div className="closebtn" onClick={() => toggleSidebar('remove')}>&times;</div>
-          <ul className='ul-parent'>
-            <li onClick={() => toggleSidebar('remove')}><Link href="/phim-moi">Phim mới</Link></li>
-            <li onClick={() => toggleSidebar('remove')}><Link href="/hoat-hinh">Hoạt hình</Link></li>
-            <li onClick={() => toggleSidebar('remove')}><Link href="/tv-shows">Tv Shows</Link></li>
-            <li onClick={() => toggleSidebar('remove')}><Link href="/phim-le">Phim lẻ</Link></li>
-            <li onClick={() => toggleSidebar('remove')}><Link href="/phim-bo">Phim bộ</Link></li>
-            <li className="dropdown">
-              <span onClick={() => setOpenSubmenuCate(!isOpenSubmenuCate)}>Thể loại</span>
-              {isOpenSubmenuCate && (
-                <ul className="dropdownMenu-child">
-                  {category.map(item => (
-                    <li onClick={() => toggleSidebar('remove')} key={item.slug}><Link href={`/the-loai/${item.slug}`}>{item.name}</Link></li>
-                  ))}
-                </ul>
-              )}
-            </li>
-            <li className="dropdown">
-              <span onClick={() => setOpenSubmenuCountry(!isOpenSubmenuCountry)}>Quốc gia</span>
-              {isOpenSubmenuCountry && (
-                <ul className="dropdownMenu-child">
-                  {country.map(item => (
-                    <li onClick={() => toggleSidebar('remove')} key={item.slug}><Link href={`/quoc-gia/${item.slug}`}>{item.name}</Link></li>
-                  ))}
-                </ul>
-              )}
-            </li>
-            <li className="dropdown">
-              <span onClick={() => setOpenSubmenuYear(!isOpenSubmenuYear)}>Năm phát hành</span>
-              {isOpenSubmenuYear && (
-                <ul className="dropdownMenu-child">
-                  {years.map(item => (
-                    <li onClick={() => toggleSidebar('remove')} key={item}><Link href={`/nam/${item}`}>{item}</Link></li>
-                  ))}
-                </ul>
-              )}
-            </li>
+    <div className='logo'>
+      <Link href="/"><Image width={207} height={70} src={logo} alt='logo-xem-phim-truc-tuyen' /></Link>
+    </div>
+  
+    <div className='menu-container'>
+      <ul className='menu'>
+        <li><h2><Link href="/phim-moi">Phim mới</Link></h2></li>
+        <li><h2><Link href="/phim-le">Phim lẻ</Link></h2></li>
+        <li><h2><Link href="/phim-bo">Phim bộ</Link></h2></li>
+        <li className='dropdown'>
+          <h2>Thể loại</h2> {/* Tiêu đề cho danh sách thể loại */}
+          <ul className='dropdownMenu'>
+            {category.map(item => (
+              <li key={item.slug}><h3><Link href={`/the-loai/${item.slug}`}>{item.name}</Link></h3></li>
+            ))}
           </ul>
-        </div>
-
-        {/* Button to open Sidebar */}
-        <button className="openbtn" onClick={() => toggleSidebar('add')}>&#9776;</button>
+        </li>
+        <li className='dropdown'>
+          <h2>Quốc gia</h2> {/* Tiêu đề cho danh sách quốc gia */}
+          <ul className='dropdownMenu'>
+            {country.map(item => (
+              <li key={item.slug}><h3><Link href={`/quoc-gia/${item.slug}`}>{item.name}</Link></h3></li>
+            ))}
+          </ul>
+        </li>
+        <li className='dropdown'>
+          <h2>Năm phát hành</h2> {/* Tiêu đề cho danh sách năm phát hành */}
+          <ul className='dropdownMenu'>
+            {years.map(item => (
+              <li className='year-li' key={item}><h3><Link href={`/nam/${item}`}>{item}</Link></h3></li>
+            ))}
+          </ul>
+        </li>
+        <li><h2><Link href="/hoat-hinh">Hoạt hình</Link></h2></li>
+        <li><h2><Link href="/tv-shows">Tv Shows</Link></h2></li>
+        <li className='top-phim'><Link href="/top-phim"><h2>Top phim</h2></Link></li>
+      </ul>
+  
+      {/* Sidebar */}
+      <div id="sidebar" className='sidebar'>
+        <div className="closebtn" onClick={() => toggleSidebar('remove')}>&times;</div>
+        <ul className='ul-parent'>
+          <li onClick={() => toggleSidebar('remove')}><h2><Link href="/phim-moi">Phim mới</Link></h2></li>
+          <li onClick={() => toggleSidebar('remove')}><h2><Link href="/hoat-hinh">Hoạt hình</Link></h2></li>
+          <li onClick={() => toggleSidebar('remove')}><h2><Link href="/tv-shows">Tv Shows</Link></h2></li>
+          <li onClick={() => toggleSidebar('remove')}><h2><Link href="/phim-le">Phim lẻ</Link></h2></li>
+          <li onClick={() => toggleSidebar('remove')}><h2><Link href="/phim-bo">Phim bộ</Link></h2></li>
+          <li className="dropdown">
+            <h2 onClick={() => setOpenSubmenuCate(!isOpenSubmenuCate)}>Thể loại</h2>
+            {isOpenSubmenuCate && (
+              <ul className="dropdownMenu-child">
+                {category.map(item => (
+                  <li onClick={() => toggleSidebar('remove')} key={item.slug}><h3><Link href={`/the-loai/${item.slug}`}>{item.name}</Link></h3></li>
+                ))}
+              </ul>
+            )}
+          </li>
+          <li className="dropdown">
+            <h2 onClick={() => setOpenSubmenuCountry(!isOpenSubmenuCountry)}>Quốc gia</h2>
+            {isOpenSubmenuCountry && (
+              <ul className="dropdownMenu-child">
+                {country.map(item => (
+                  <li onClick={() => toggleSidebar('remove')} key={item.slug}><h3><Link href={`/quoc-gia/${item.slug}`}>{item.name}</Link></h3></li>
+                ))}
+              </ul>
+            )}
+          </li>
+          <li className="dropdown">
+            <h2 onClick={() => setOpenSubmenuYear(!isOpenSubmenuYear)}>Năm phát hành</h2>
+            {isOpenSubmenuYear && (
+              <ul className="dropdownMenu-child">
+                {years.map(item => (
+                  <li onClick={() => toggleSidebar('remove')} key={item}><h3><Link href={`/nam/${item}`}>{item}</Link></h3></li>
+                ))}
+              </ul>
+            )}
+          </li>
+        </ul>
       </div>
-    </header>
+  
+      {/* Button to open Sidebar */}
+      <button className="openbtn" onClick={() => toggleSidebar('add')}>&#9776;</button>
+    </div>
+  </header>
+  
   );
 };
 

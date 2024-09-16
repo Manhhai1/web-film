@@ -1,7 +1,6 @@
 .header {
   background-color: #333;
-  padding: 15px 0;
-  height: 40px;
+  height: 70px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -21,7 +20,9 @@
 nav {
   flex-grow: 1;
 }
-
+.menu-container{
+  height: 100%;
+}
 .menu {
   list-style: none;
   display: flex;
@@ -32,16 +33,29 @@ nav {
   height: 100%;
   flex-wrap: nowrap;
   width: auto;
+  margin: 0;
 }
 
 .menu li {
-  margin: 10px;
   position: relative;
   font-weight: 550;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  flex-wrap: nowrap;
 }
-
+.dropdown>h2{
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+  display: flex;
+  width: auto;
+  margin-top: 20px;
+}
 .menu .top-phim a {
   color: #ff9601;
+  font-size: 14px;
 }
 
 .menu li a,
@@ -86,7 +100,7 @@ nav {
   overflow: hidden; 
 }
 
-.dropdownMenu li {
+.dropdownMenu li h3{
   width: 120px;
   padding: 5px;
   margin: 0;
@@ -133,12 +147,26 @@ nav {
   margin: 0;
 }
 
-.sidebar .ul-parent li {
-  padding: 10px 15px;
+.sidebar .ul-parent li h2{
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-align: left;
   border-bottom: 1px solid #444;
+  margin: 0;
+  font-size: 17px;
+  font-weight: 550;
+  margin-left: 10px;
 }
-
+.dropdownMenu-child>li>h3{
+  margin: 0;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 10px;
+  
+}
+.dropdownMenu-child>li{
+  padding-bottom: 5px;
+}
 .sidebar ul li a {
   color: #fff;
   text-decoration: none;
@@ -172,7 +200,7 @@ nav {
   z-index: 100;
 }
 
-.dropdownMenu-child li {
+.dropdownMenu-child li h3{
   padding: 5px 0;
   width: 120px; 
   height: 20px;
@@ -192,7 +220,7 @@ nav {
 }
 /* Sidebar opening transition */
 .openSidebar {
-  width: 250px;
+  width: 260px;
   transition: 0.3s ease;
 }
 
