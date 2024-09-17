@@ -1,12 +1,12 @@
-'use client'
+'use client';
 import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css"; 
+import "slick-carousel/slick/slick-theme.css";  
 import '../css/Section2.css';
 import MovieCard from '../movies/MovieCard';
 
-const Section2 = ({category}) => {
+const Section2 = ({ category }) => {
     const [films, setFilms] = useState([]);
 
     const settings = {
@@ -29,24 +29,23 @@ const Section2 = ({category}) => {
     useEffect(() => {
         async function fetchData() {
             try {
-                const res = await fetch(`https://phimapi.com/v1/api/the-loai/${category}?page=${Math.floor(Math.random() * 5)}`);
+                const res = await fetch(`https://phimapi.com/v1/api/the-loai/${category}?page=1`);
                 const movies = await res.json();
                 setFilms(movies.data?.items || movies.items);
             } catch (error) {
                 console.error('Error fetching movies:', error);
             }
         }
-        fetchData();
-    }, []);
-
+        fetchData()
+    }, {}); // Thêm category vào dependencies của useEffect
     return (
         <div className="section">
             <h4>Có thể bạn cũng thích</h4>
-            <Slider className='list-item' {...settings}>
-                {films.map((movie, index) => (
-                    <MovieCard className='item' key={index} movie={movie} />
-                ))}
-            </Slider>
+                <Slider className='list-item' {...settings}>
+                    {films?.map((movie, index) => (
+                        <MovieCard key={index} movie={movie} />
+                    ))}
+                </Slider>
         </div>
     );
 };

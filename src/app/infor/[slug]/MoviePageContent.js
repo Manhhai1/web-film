@@ -73,7 +73,7 @@ export default function Page() {
              </div>
            ))}
           </div>
-          <Section2 category={dataFilm?.category?.slug}></Section2>
+          <Section2 category={dataFilm?.category?.[0].slug || 'hanh-dong'}></Section2>
        </div>
       </div>
      <MoviePopup
