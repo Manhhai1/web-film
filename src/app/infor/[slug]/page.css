@@ -133,11 +133,32 @@
     text-align: center;
     border-radius: 4px;
   }
-  
+  .btn-watch-trailer{
+    margin-left: 5px;
+    background-color: rgb(237, 20, 20);
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+  }
+  .btn-watch-trailer a{
+    text-decoration: none;
+  }
   .btn-watch-film:hover {
     background-color: #ff9601;
   }
-  
+  .btn-watch-trailer:hover{
+    background-color: #ff9601;
+  }
+  .btn-open{
+    display: flex;
+    flex-wrap: wrap;
+  }
   .episodes{
      display: flex;
      width: 100%;
@@ -164,6 +185,7 @@
   .btn-watch:hover {
     background-color: #ff9601;
   }
+
   /* Responsive Design */
   @media (max-width: 1024px) {
     .film-info {
@@ -206,6 +228,10 @@
       width: 100%;
       margin: 0 auto;
     }
+    .btn-watch-trailer{
+      width: 100%;
+      margin: 0 auto;
+    }
   }
   
   @media (max-width: 480px) {
@@ -228,5 +254,7 @@
     .btn-watch-film {
       font-size: 14px;
     }
+    .btn-watch-trailer {
+      font-size: 14px;
+    }
   }
-  

@@ -40,8 +40,13 @@ export default function Page() {
          <div className="content-film">
            <h2>{dataFilm?.name}</h2>
            <h4>{dataFilm?.origin_name}</h4>
-           <div className="btn-watch-film" src={episodes[0]?.link_embed} onClick={handleOpenPopup}>
-             Xem phim
+            <div className="btn-open">
+                <div className="btn-watch-film" src={episodes[0]?.link_embed} onClick={handleOpenPopup}>
+                    Xem phim
+                </div>
+                <div className="btn-watch-trailer"  src={dataFilm?.trailer_url}>
+                    <a href={dataFilm?.trailer_url} target="_blank">Trailer</a>
+                </div>
            </div>
          </div>
        </div>

@@ -1,4 +1,3 @@
-import { MetadataRoute } from 'next';
 
 export default function sitemap() {
   const baseUrl = 'https://top-phim.pro';
@@ -13,207 +12,207 @@ export default function sitemap() {
     {
       url: `${baseUrl}/phim-le`,
       lastModified: '2024-09-14',
-      changeFrequency: 'daily',
+      changeFrequency: "daily",
       priority: 0.9
     },
     {
       url: `${baseUrl}/phim-bo`,
       lastModified: '2024-09-14',
-      changeFrequency: 'daily',
+      changeFrequency: "daily",
       priority: 0.9
     },
     {
       url: `${baseUrl}/phim-moi`,
       lastModified: '2024-09-14',
-      changeFrequency: 'daily',
+      changeFrequency: "daily",
       priority: 0.9
       },
       {
         url: `${baseUrl}/tv-shows`,
         lastModified: '2024-09-14',
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9
       },
       {
         url: `${baseUrl}/hoat-hinh`,
         lastModified: '2024-09-14',
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9
       },
       {
         url: `${baseUrl}/the-loai/hanh-dong`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/tinh-cam`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/hai-huoc`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/co-trang`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/tam-ly`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/hinh-su`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/chien-tranh`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/the-thao`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/vo-thuat`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/vien-tuong`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/phieu-luu`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/khoa-hoc`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/kinh-di`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/am-nhac`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/than-thoai`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/tai-lieu`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/gia-dinh`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/chinh-kich`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/bi-an`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/hoc-duong`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/kinh-dien`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
       {
         url: `${baseUrl}/the-loai/phim-18`,
         lastModified: lastMod,
-        changeFrequency: 'daily',
+        changeFrequency: "daily",
         priority: 0.9,
       },
-      { url: "https://top-phim.pro/quoc-gia/Trung-Quoc", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Han-Quoc", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Nhat-Ban", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Thai-Lan", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Au-My", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Dai-Loan", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Hong-Kong", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/An-Do", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Anh", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Phap", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Canada", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Quoc-Gia-Khac", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Duc", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Tay-Ban-Nha", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Tho-Nhi-Ky", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Han-Lan", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Indonesia", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Nga", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Mexico", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Ba-Lan", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Uc", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Thuy-Dien", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Malaysia", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Brazil", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Philippines", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Bo-Dao-Nha", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Y", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Dan-Mach", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/UAE", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Na-Uy", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Thuy-Si", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Chau-Phi", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Nam-Phi", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Ukraina", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/A-Rap-Xe-Ut", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Bi", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Ireland", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Colombia", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Phan-Lan", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Viet-Nam", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-  { url: "https://top-phim.pro/quoc-gia/Chile", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
-      { url: "https://top-phim.pro/quoc-gia/Hy-Lap", lastModified: "2024-09-14", changeFrequency: daily, priority: 0.9 },
+      { url: "https://top-phim.pro/quoc-gia/Trung-Quoc", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Han-Quoc", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Nhat-Ban", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Thai-Lan", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Au-My", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Dai-Loan", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Hong-Kong", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/An-Do", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Anh", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Phap", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Canada", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Quoc-Gia-Khac", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Duc", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Tay-Ban-Nha", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Tho-Nhi-Ky", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Han-Lan", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Indonesia", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Nga", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Mexico", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Ba-Lan", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Uc", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Thuy-Dien", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Malaysia", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Brazil", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Philippines", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Bo-Dao-Nha", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Y", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Dan-Mach", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/UAE", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Na-Uy", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Thuy-Si", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Chau-Phi", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Nam-Phi", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Ukraina", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/A-Rap-Xe-Ut", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Bi", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Ireland", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Colombia", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Phan-Lan", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Viet-Nam", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+  { url: "https://top-phim.pro/quoc-gia/Chile", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
+      { url: "https://top-phim.pro/quoc-gia/Hy-Lap", lastModified: "2024-09-14", changeFrequency: "daily", priority: 0.9 },
   
       {
         url: "https://www.top-phim.pro/infor/ngo-nhap-quan-mong",
@@ -456,7 +455,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/doi-chu-nha-chappelle---earthquake-legendary",
+        url: "https://www.top-phim.pro/infor/doi-chu-nha-chappelle-earthquake-legendary",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -786,7 +785,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/chua-te-cua-nhung-chiec-nhan--nhung-chiec-nhan-quyen-nang-phan-2",
+        url: "https://www.top-phim.pro/infor/chua-te-cua-nhung-chiec-nhan-nhung-chiec-nhan-quyen-nang-phan-2",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -900,7 +899,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/tao-nen-mot-vu-tru---hau-truong-rebel-moon",
+        url: "https://www.top-phim.pro/infor/tao-nen-mot-vu-tru-hau-truong-rebel-moon",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -1182,7 +1181,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/chua-te-cua-nhung-chiec-nhan--nhung-chiec-nhan-quyen-nang-phan-1",
+        url: "https://www.top-phim.pro/infor/chua-te-cua-nhung-chiec-nhan-nhung-chiec-nhan-quyen-nang-phan-1",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -1308,13 +1307,13 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nhiem-vu-bat-kha-thi---sup-do",
+        url: "https://www.top-phim.pro/infor/nhiem-vu-bat-kha-thi-sup-do",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nhiem-vu-bat-kha-thi---nghiep-bao-phan-1",
+        url: "https://www.top-phim.pro/infor/nhiem-vu-bat-kha-thi-nghiep-bao-phan-1",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -1332,7 +1331,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nhiem-vu-bat-kha-thi---quoc-gia-bi-an",
+        url: "https://www.top-phim.pro/infor/nhiem-vu-bat-kha-thi-quoc-gia-bi-an",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -1848,7 +1847,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/shin---cau-be-but-chi-cuoc-truy-duoi-vien-ngoc-hac-am",
+        url: "https://www.top-phim.pro/infor/shin-cau-be-but-chi-cuoc-truy-duoi-vien-ngoc-hac-am",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -1866,7 +1865,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/hau-truong---pha-le-den-ky-nguyen-khang-chien",
+        url: "https://www.top-phim.pro/infor/hau-truong-pha-le-den-ky-nguyen-khang-chien",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -2838,13 +2837,13 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/boruto---naruto-hau-sinh-kha-uy",
+        url: "https://www.top-phim.pro/infor/boruto-naruto-hau-sinh-kha-uy",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/rupauls-drag-race--cuoc-chien-giay-cao-got-hau-truong-phan-13",
+        url: "https://www.top-phim.pro/infor/rupauls-drag-race-cuoc-chien-giay-cao-got-hau-truong-phan-13",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -3126,7 +3125,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/du-sinh-xin-chi-giao-nhieu-hon--quang-doi-con-lai-xin-chi-giao-nhieu-hon",
+        url: "https://www.top-phim.pro/infor/du-sinh-xin-chi-giao-nhieu-hon-quang-doi-con-lai-xin-chi-giao-nhieu-hon",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -3534,7 +3533,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/uu-tu---truyen-ngan-guzman-caye-rebe",
+        url: "https://www.top-phim.pro/infor/uu-tu-truyen-ngan-guzman-caye-rebe",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -4098,7 +4097,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/arthur--merlin-hiep-si-lac-da",
+        url: "https://www.top-phim.pro/infor/arthur-merlin-hiep-si-lac-da",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -4320,13 +4319,13 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bao-tieu-phan-3---kieu-nu-tuyet-tran",
+        url: "https://www.top-phim.pro/infor/bao-tieu-phan-3-kieu-nu-tuyet-tran",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bao-tieu-phan-2---nguoi-tinh-hiep-khach",
+        url: "https://www.top-phim.pro/infor/bao-tieu-phan-2-nguoi-tinh-hiep-khach",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -4524,7 +4523,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nhat-dai-nu-hoang---vo-tac-thien",
+        url: "https://www.top-phim.pro/infor/nhat-dai-nu-hoang-vo-tac-thien",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -4830,7 +4829,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/ngoc-chieu-lenh---phan-2",
+        url: "https://www.top-phim.pro/infor/ngoc-chieu-lenh-phan-2",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -7032,7 +7031,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/chan-troi-cau-chuyen-mien-tay-my---phan-1",
+        url: "https://www.top-phim.pro/infor/chan-troi-cau-chuyen-mien-tay-my-phan-1",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -8322,7 +8321,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/don-vi-chien-thuat--canh-le",
+        url: "https://www.top-phim.pro/infor/don-vi-chien-thuat-canh-le",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -8334,25 +8333,25 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/biet-doi-co-dong--dong-doi",
+        url: "https://www.top-phim.pro/infor/biet-doi-co-dong-dong-doi",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/biet-doi-co-dong--khong-loi-thoat",
+        url: "https://www.top-phim.pro/infor/biet-doi-co-dong-khong-loi-thoat",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/biet-doi-co-dong--nhan-tinh",
+        url: "https://www.top-phim.pro/infor/biet-doi-co-dong-nhan-tinh",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/doi-dac-nhiem-co-dong---dong-doi",
+        url: "https://www.top-phim.pro/infor/doi-dac-nhiem-co-dong-dong-doi",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -9192,7 +9191,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/cam-tu-nam-ca---the-song-of-glory",
+        url: "https://www.top-phim.pro/infor/cam-tu-nam-ca-the-song-of-glory",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -9714,7 +9713,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/uu-tu---truyen-ngan-samuel-omar",
+        url: "https://www.top-phim.pro/infor/uu-tu-truyen-ngan-samuel-omar",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -10104,7 +10103,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/that-nghiep-chuyen-sinh---phan-2---part-2",
+        url: "https://www.top-phim.pro/infor/that-nghiep-chuyen-sinh-phan-2-part-2",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -10206,7 +10205,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/truyen-co-hac-am--grimm",
+        url: "https://www.top-phim.pro/infor/truyen-co-hac-am-grimm",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -10218,7 +10217,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/uu-tu---truyen-ngan-phillipe-caye-felipe",
+        url: "https://www.top-phim.pro/infor/uu-tu-truyen-ngan-phillipe-caye-felipe",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -10350,7 +10349,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/uu-tu---truyen-ngan-omar-ander-alexis",
+        url: "https://www.top-phim.pro/infor/uu-tu-truyen-ngan-omar-ander-alexis",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -10674,43 +10673,43 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nhat-den-nhi-do-8---dieu-hung-tranh-bip",
+        url: "https://www.top-phim.pro/infor/nhat-den-nhi-do-8-dieu-hung-tranh-bip",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nhat-den-nhi-do-7---song-thien-chi-ton",
+        url: "https://www.top-phim.pro/infor/nhat-den-nhi-do-7-song-thien-chi-ton",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nhat-den-nhi-do-6---song-thien-long-tranh-ho-dau",
+        url: "https://www.top-phim.pro/infor/nhat-den-nhi-do-6-song-thien-long-tranh-ho-dau",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nhat-den-nhi-do-5---song-thien-tranh-bip",
+        url: "https://www.top-phim.pro/infor/nhat-den-nhi-do-5-song-thien-tranh-bip",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nhat-den-nhi-do-4---vua-bip-tai-xuat-giang-ho",
+        url: "https://www.top-phim.pro/infor/nhat-den-nhi-do-4-vua-bip-tai-xuat-giang-ho",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nhat-den-nhi-do-3---doc-ba-thien-ha",
+        url: "https://www.top-phim.pro/infor/nhat-den-nhi-do-3-doc-ba-thien-ha",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nhat-den-nhi-do-2---thien-ha-vo-dich",
+        url: "https://www.top-phim.pro/infor/nhat-den-nhi-do-2-thien-ha-vo-dich",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -11310,7 +11309,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/mechamato--loat-phim-hoat-hinh-phan-2",
+        url: "https://www.top-phim.pro/infor/mechamato-loat-phim-hoat-hinh-phan-2",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -11334,7 +11333,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/phap-y---nghin-le-mot-dem",
+        url: "https://www.top-phim.pro/infor/phap-y-nghin-le-mot-dem",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -11520,7 +11519,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/deepa--anoop",
+        url: "https://www.top-phim.pro/infor/deepa-anoop",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -11592,7 +11591,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/hoang-tu-thien-tai-dua-dat-nuoc-thoat-khoi-no-nan---dung-roi-ban-nuoc-thoi",
+        url: "https://www.top-phim.pro/infor/hoang-tu-thien-tai-dua-dat-nuoc-thoat-khoi-no-nan-dung-roi-ban-nuoc-thoi",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -11652,7 +11651,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/thanh-xa---tinh-duyen-lai-den",
+        url: "https://www.top-phim.pro/infor/thanh-xa-tinh-duyen-lai-den",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -11772,7 +11771,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/dragon-raja---binh-minh-ruc-lua",
+        url: "https://www.top-phim.pro/infor/dragon-raja-binh-minh-ruc-lua",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -12228,7 +12227,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/wallace--gromit-loi-nguyen-cua-ma-tho",
+        url: "https://www.top-phim.pro/infor/wallace-gromit-loi-nguyen-cua-ma-tho",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -12414,7 +12413,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/sword-art-online-progressive---khuc-scherzo-duoi-hoang-hon-am-dam",
+        url: "https://www.top-phim.pro/infor/sword-art-online-progressive-khuc-scherzo-duoi-hoang-hon-am-dam",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -12984,7 +12983,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/pinecone--pony-phan-1",
+        url: "https://www.top-phim.pro/infor/pinecone-pony-phan-1",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -13152,7 +13151,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/kaulitz--kaulitz",
+        url: "https://www.top-phim.pro/infor/kaulitz-kaulitz",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -13656,7 +13655,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/banh-que--mochi-mo-nha-hang",
+        url: "https://www.top-phim.pro/infor/banh-que-mochi-mo-nha-hang",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -13812,7 +13811,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/cuoc-song-tai-di-gioi-cua-hien-gia-tai-sinh---toi-nhan-duoc-chuc-nghiep-thu-hai-va-da-tro-thanh-nguoi-manh-nhat-the-gioi",
+        url: "https://www.top-phim.pro/infor/cuoc-song-tai-di-gioi-cua-hien-gia-tai-sinh-toi-nhan-duoc-chuc-nghiep-thu-hai-va-da-tro-thanh-nguoi-manh-nhat-the-gioi",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -14070,7 +14069,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/tay-du-ky-reload--zeroin-",
+        url: "https://www.top-phim.pro/infor/tay-du-ky-reload-zeroin-",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -14982,7 +14981,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/borgen-quyen-luc--vinh-quang",
+        url: "https://www.top-phim.pro/infor/borgen-quyen-luc-vinh-quang",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -15204,7 +15203,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/that-nghiep-chuyen-sinh-sang-the-gioi-khac-toi-se-nghiem-tuc---mua-2",
+        url: "https://www.top-phim.pro/infor/that-nghiep-chuyen-sinh-sang-the-gioi-khac-toi-se-nghiem-tuc-mua-2",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -15960,7 +15959,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/loi-nguyen---curses",
+        url: "https://www.top-phim.pro/infor/loi-nguyen-curses",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -16188,13 +16187,13 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/tiger--bunny-phan-2",
+        url: "https://www.top-phim.pro/infor/tiger-bunny-phan-2",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/tam-lof---lo-va-vao-nhau",
+        url: "https://www.top-phim.pro/infor/tam-lof-lo-va-vao-nhau",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -16230,7 +16229,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/de-che-phap-luat---quyen-cong-to",
+        url: "https://www.top-phim.pro/infor/de-che-phap-luat-quyen-cong-to",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -16320,7 +16319,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/ho-so-lua-3---khi-tu-thi-len-tieng",
+        url: "https://www.top-phim.pro/infor/ho-so-lua-3-khi-tu-thi-len-tieng",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -16578,7 +16577,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/deepa--anoop-phan-2",
+        url: "https://www.top-phim.pro/infor/deepa-anoop-phan-2",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -16686,7 +16685,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/kaguya-sama-cuoc-chien-to-tinh---ultra-romantic",
+        url: "https://www.top-phim.pro/infor/kaguya-sama-cuoc-chien-to-tinh-ultra-romantic",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -17358,7 +17357,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/khanh-du-nien-1---ban-dac-biet",
+        url: "https://www.top-phim.pro/infor/khanh-du-nien-1-ban-dac-biet",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -17856,7 +17855,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/love-death--robots-phan-3",
+        url: "https://www.top-phim.pro/infor/love-death-robots-phan-3",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -18018,7 +18017,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/than-bai--jack-mot-mat",
+        url: "https://www.top-phim.pro/infor/than-bai-jack-mot-mat",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -18294,7 +18293,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/asako-i--ii",
+        url: "https://www.top-phim.pro/infor/asako-i-ii",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -18306,7 +18305,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/huyen-thoai-ve-nhung-anh-hung-dai-ngan-ha-die-neue-these---dot-kich",
+        url: "https://www.top-phim.pro/infor/huyen-thoai-ve-nhung-anh-hung-dai-ngan-ha-die-neue-these-dot-kich",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -18786,7 +18785,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bach-yeu-pho---kinh-su-thien",
+        url: "https://www.top-phim.pro/infor/bach-yeu-pho-kinh-su-thien",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -18966,7 +18965,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/huyen-thoai-ve-nhung-anh-hung-dai-ngan-ha-die-neue-these---am-muu",
+        url: "https://www.top-phim.pro/infor/huyen-thoai-ve-nhung-anh-hung-dai-ngan-ha-die-neue-these-am-muu",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -19518,7 +19517,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/rebel-moon--phan-hai-ke-khac-vet-seo",
+        url: "https://www.top-phim.pro/infor/rebel-moon-phan-hai-ke-khac-vet-seo",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -19692,7 +19691,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/ba-chang-linh-ngu-lam---phan-2-milady",
+        url: "https://www.top-phim.pro/infor/ba-chang-linh-ngu-lam-phan-2-milady",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -20064,7 +20063,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bo-giap-ri-set--binh-minh-",
+        url: "https://www.top-phim.pro/infor/bo-giap-ri-set-binh-minh-",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -21384,7 +21383,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/castlevania-da-khuc---mua-1",
+        url: "https://www.top-phim.pro/infor/castlevania-da-khuc-mua-1",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -21594,7 +21593,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/gamera--tai-sinh-",
+        url: "https://www.top-phim.pro/infor/gamera-tai-sinh-",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -21828,7 +21827,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/salaar-phan-1---lenh-ngung-ban",
+        url: "https://www.top-phim.pro/infor/salaar-phan-1-lenh-ngung-ban",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -22554,7 +22553,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/danh-sach-den-phan-10---the-final",
+        url: "https://www.top-phim.pro/infor/danh-sach-den-phan-10-the-final",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -22692,7 +22691,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/pinecone--pony-phan-2",
+        url: "https://www.top-phim.pro/infor/pinecone-pony-phan-2",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -22710,7 +22709,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/luden---cac-vi-vua-cua-reeperbahn",
+        url: "https://www.top-phim.pro/infor/luden-cac-vi-vua-cua-reeperbahn",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -22770,7 +22769,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/vung-bien-trong-mo---where-dreams-begin",
+        url: "https://www.top-phim.pro/infor/vung-bien-trong-mo-where-dreams-begin",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -22782,7 +22781,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/ginny--georgia-phan-2",
+        url: "https://www.top-phim.pro/infor/ginny-georgia-phan-2",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -23292,7 +23291,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/irl---in-real-love",
+        url: "https://www.top-phim.pro/infor/irl-in-real-love",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -23394,7 +23393,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/thanh-guom-diet-quy-phan-4---phan-lang-ren-kiem",
+        url: "https://www.top-phim.pro/infor/thanh-guom-diet-quy-phan-4-phan-lang-ren-kiem",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -24126,7 +24125,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/gunther---chu-cho-trieu-phu",
+        url: "https://www.top-phim.pro/infor/gunther-chu-cho-trieu-phu",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -24510,7 +24509,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/thanh-guom-diet-quy-phan-3---phan-khu-pho-an-choi",
+        url: "https://www.top-phim.pro/infor/thanh-guom-diet-quy-phan-3-phan-khu-pho-an-choi",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -24600,7 +24599,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/arifureta---tu-tam-thuong-den-bat-kha-chien-bai",
+        url: "https://www.top-phim.pro/infor/arifureta-tu-tam-thuong-den-bat-kha-chien-bai",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -24930,7 +24929,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/huu-nhan-so---natsume-yuujinchou-phan-6",
+        url: "https://www.top-phim.pro/infor/huu-nhan-so-natsume-yuujinchou-phan-6",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -24984,7 +24983,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/goo-hae-ryung---nha-su-hoc-tap-su",
+        url: "https://www.top-phim.pro/infor/goo-hae-ryung-nha-su-hoc-tap-su",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -25326,7 +25325,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/frieren---phap-su-tien-tang",
+        url: "https://www.top-phim.pro/infor/frieren-phap-su-tien-tang",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -25542,7 +25541,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bill--teds-bogus-journey",
+        url: "https://www.top-phim.pro/infor/bill-teds-bogus-journey",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -25974,7 +25973,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/high--low-lien-minh-tam-trung",
+        url: "https://www.top-phim.pro/infor/high-low-lien-minh-tam-trung",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -26352,19 +26351,19 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/tieu-diem-giai-mua-dong---vuot-qua-nguong-cua",
+        url: "https://www.top-phim.pro/infor/tieu-diem-giai-mua-dong-vuot-qua-nguong-cua",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/tieu-diem-giai-mua-dong---anh-duong-va-bong-ro",
+        url: "https://www.top-phim.pro/infor/tieu-diem-giai-mua-dong-anh-duong-va-bong-ro",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bong-ro-cua-kuroko---tran-dau-cuoi-cung",
+        url: "https://www.top-phim.pro/infor/bong-ro-cua-kuroko-tran-dau-cuoi-cung",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -26598,7 +26597,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/lam-hoa-diet-quy---bat-tinh-vuong-kyoto",
+        url: "https://www.top-phim.pro/infor/lam-hoa-diet-quy-bat-tinh-vuong-kyoto",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -26928,7 +26927,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/flora--ulysses",
+        url: "https://www.top-phim.pro/infor/flora-ulysses",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -27504,7 +27503,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/co-nang-ngoc---aho-girl",
+        url: "https://www.top-phim.pro/infor/co-nang-ngoc-aho-girl",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -27624,7 +27623,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/anh-hung-xa-dieu--giang-long-thap-bat-chuong",
+        url: "https://www.top-phim.pro/infor/anh-hung-xa-dieu-giang-long-thap-bat-chuong",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -27810,7 +27809,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/thay-ma--quy-su",
+        url: "https://www.top-phim.pro/infor/thay-ma-quy-su",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -27912,7 +27911,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/su-tro-lai-cua-billa---tra-thu-2",
+        url: "https://www.top-phim.pro/infor/su-tro-lai-cua-billa-tra-thu-2",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -28788,7 +28787,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/ai--tri-tue-nhan-tao",
+        url: "https://www.top-phim.pro/infor/ai-tri-tue-nhan-tao",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -28842,7 +28841,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/daisy-jones--the-six",
+        url: "https://www.top-phim.pro/infor/daisy-jones-the-six",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -28866,7 +28865,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nu-ho-ve-xinh-dep-thuy-thu-mat-trang-vinh-hang---ban-dien-anh",
+        url: "https://www.top-phim.pro/infor/nu-ho-ve-xinh-dep-thuy-thu-mat-trang-vinh-hang-ban-dien-anh",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -28938,7 +28937,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/upin--ipin-phan-14",
+        url: "https://www.top-phim.pro/infor/upin-ipin-phan-14",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -29058,7 +29057,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/rupauls-drag-race---cuoc-chien-giay-cao-got-phan-11",
+        url: "https://www.top-phim.pro/infor/rupauls-drag-race-cuoc-chien-giay-cao-got-phan-11",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -29130,7 +29129,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/cuoc-chien-chen-thanh-chien-tuyen-ma-thu-tuyet-doi---babylonia",
+        url: "https://www.top-phim.pro/infor/cuoc-chien-chen-thanh-chien-tuyen-ma-thu-tuyet-doi-babylonia",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -29220,7 +29219,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/onegai---teacher",
+        url: "https://www.top-phim.pro/infor/onegai-teacher",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -29838,7 +29837,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/ke-danh-bom-thu--loi-nguoi-trong-cuoc",
+        url: "https://www.top-phim.pro/infor/ke-danh-bom-thu-loi-nguoi-trong-cuoc",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -30060,7 +30059,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/quy-co-nong-tinh--nam-jung-gi",
+        url: "https://www.top-phim.pro/infor/quy-co-nong-tinh-nam-jung-gi",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -30174,7 +30173,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/jiva--vu-dieu-uoc-mo",
+        url: "https://www.top-phim.pro/infor/jiva-vu-dieu-uoc-mo",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -30264,7 +30263,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/booba-phan-2---part-1",
+        url: "https://www.top-phim.pro/infor/booba-phan-2-part-1",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -30348,7 +30347,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/quan-an-dem--loat-phim-phan-2",
+        url: "https://www.top-phim.pro/infor/quan-an-dem-loat-phim-phan-2",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -30630,7 +30629,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nguon-goc-cua-huong-vi-phan-1---am-thuc-trieu-san",
+        url: "https://www.top-phim.pro/infor/nguon-goc-cua-huong-vi-phan-1-am-thuc-trieu-san",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -31386,7 +31385,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/hoang-phi-hong--vuong-gia-vo-dich",
+        url: "https://www.top-phim.pro/infor/hoang-phi-hong-vuong-gia-vo-dich",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -32058,7 +32057,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/ngoi-mo-tang-thuong--hon-ma-nu",
+        url: "https://www.top-phim.pro/infor/ngoi-mo-tang-thuong-hon-ma-nu",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -32112,7 +32111,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/xin-hoi-hom-nay-quy-khach-co-muon-dat-tho-khong---sing-for-you",
+        url: "https://www.top-phim.pro/infor/xin-hoi-hom-nay-quy-khach-co-muon-dat-tho-khong-sing-for-you",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -32352,7 +32351,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/tinker-bell---co-tien-giup-ich",
+        url: "https://www.top-phim.pro/infor/tinker-bell-co-tien-giup-ich",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -32580,7 +32579,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/shake-rattle--roll-extreme",
+        url: "https://www.top-phim.pro/infor/shake-rattle-roll-extreme",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -32616,7 +32615,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nguc-toi--rong-danh-du-cua-ke-trom",
+        url: "https://www.top-phim.pro/infor/nguc-toi-rong-danh-du-cua-ke-trom",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -33210,7 +33209,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/tu-le-giang-son---truong-ca-hanh",
+        url: "https://www.top-phim.pro/infor/tu-le-giang-son-truong-ca-hanh",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -33996,7 +33995,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/thieu-nien-bong-chuyen--phan-4-part-1",
+        url: "https://www.top-phim.pro/infor/thieu-nien-bong-chuyen-phan-4-part-1",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -34470,7 +34469,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/khan-voan-cuoi---di-san-tinh-yeu",
+        url: "https://www.top-phim.pro/infor/khan-voan-cuoi-di-san-tinh-yeu",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -34560,7 +34559,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/wallander---canh-sat-tre-tuoi-phan-2",
+        url: "https://www.top-phim.pro/infor/wallander-canh-sat-tre-tuoi-phan-2",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -34698,7 +34697,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nguon-goc-cua-huong-vi-phan-2---am-thuc-van-nam",
+        url: "https://www.top-phim.pro/infor/nguon-goc-cua-huong-vi-phan-2-am-thuc-van-nam",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -34902,7 +34901,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/cao-va-thap---thien-duong-va-dia-nguc",
+        url: "https://www.top-phim.pro/infor/cao-va-thap-thien-duong-va-dia-nguc",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -34956,7 +34955,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/sierra-burgess---ke-that-bai",
+        url: "https://www.top-phim.pro/infor/sierra-burgess-ke-that-bai",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -35484,7 +35483,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/manh-long---than-long-dac-canh",
+        url: "https://www.top-phim.pro/infor/manh-long-than-long-dac-canh",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -35730,7 +35729,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/geez--ann",
+        url: "https://www.top-phim.pro/infor/geez-ann",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -37254,7 +37253,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/thai-tu-duoc-pham---dragonsthorn",
+        url: "https://www.top-phim.pro/infor/thai-tu-duoc-pham-dragonsthorn",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -37818,7 +37817,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/tuong-quan-tai-thuong---nguoi-tinh-vuot-thoi-gian",
+        url: "https://www.top-phim.pro/infor/tuong-quan-tai-thuong-nguoi-tinh-vuot-thoi-gian",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -37944,7 +37943,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/thanh-guom-diet-quy-hoi-nghi-tru-cot---dinh-thu-buom-buom",
+        url: "https://www.top-phim.pro/infor/thanh-guom-diet-quy-hoi-nghi-tru-cot-dinh-thu-buom-buom",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -38592,7 +38591,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/code-geass-lelouch-of-the-rebellion-i---initiation",
+        url: "https://www.top-phim.pro/infor/code-geass-lelouch-of-the-rebellion-i-initiation",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -38664,7 +38663,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/lego-dc-comics-superheroes-justice-league---gotham-city-breakout",
+        url: "https://www.top-phim.pro/infor/lego-dc-comics-superheroes-justice-league-gotham-city-breakout",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -38730,7 +38729,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bo-tu-3---tu-dai-danh-bo-3",
+        url: "https://www.top-phim.pro/infor/bo-tu-3-tu-dai-danh-bo-3",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -38892,7 +38891,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/habibie--ainun-3",
+        url: "https://www.top-phim.pro/infor/habibie-ainun-3",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -39390,7 +39389,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/tinh-yeu--cai-chet",
+        url: "https://www.top-phim.pro/infor/tinh-yeu-cai-chet",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -39594,7 +39593,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bill--ted-giai-cuu-the-gioi",
+        url: "https://www.top-phim.pro/infor/bill-ted-giai-cuu-the-gioi",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -40170,7 +40169,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/vo-duong-cobra-kai---tiec-hau",
+        url: "https://www.top-phim.pro/infor/vo-duong-cobra-kai-tiec-hau",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -40650,7 +40649,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/wallace-va-gromit--banh-mi-va-cai-chet",
+        url: "https://www.top-phim.pro/infor/wallace-va-gromit-banh-mi-va-cai-chet",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -40878,7 +40877,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/wynn-handman---cuong-si-san-khau",
+        url: "https://www.top-phim.pro/infor/wynn-handman-cuong-si-san-khau",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -41742,7 +41741,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/hai-kiep-yeu-tinh---may-man-kiep-nay",
+        url: "https://www.top-phim.pro/infor/hai-kiep-yeu-tinh-may-man-kiep-nay",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -42120,7 +42119,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bay-hiep-si---nguoi-ke-vi-anh-hung",
+        url: "https://www.top-phim.pro/infor/bay-hiep-si-nguoi-ke-vi-anh-hung",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -42480,7 +42479,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/jason-takes-manhattan---thu-6-ngay-13-phan-8",
+        url: "https://www.top-phim.pro/infor/jason-takes-manhattan-thu-6-ngay-13-phan-8",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -42750,7 +42749,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/gauko---co-be-khung-long-phan-2",
+        url: "https://www.top-phim.pro/infor/gauko-co-be-khung-long-phan-2",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -43194,7 +43193,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/highlow---dtc-suoi-nuoc-nong",
+        url: "https://www.top-phim.pro/infor/highlow-dtc-suoi-nuoc-nong",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -43488,7 +43487,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/luu-trai-tan-truyen---hoa-bi",
+        url: "https://www.top-phim.pro/infor/luu-trai-tan-truyen-hoa-bi",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -43692,7 +43691,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/tro-choi-tri-tue---thu-nghiem",
+        url: "https://www.top-phim.pro/infor/tro-choi-tri-tue-thu-nghiem",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -44784,7 +44783,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/dich-nhan-kiet---dau-bay-la-sat",
+        url: "https://www.top-phim.pro/infor/dich-nhan-kiet-dau-bay-la-sat",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -45210,7 +45209,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/thuong-duong-phu--giang-son-co-nhan",
+        url: "https://www.top-phim.pro/infor/thuong-duong-phu-giang-son-co-nhan",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -45738,7 +45737,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/giac-mo-my---mot-tu-nhieu",
+        url: "https://www.top-phim.pro/infor/giac-mo-my-mot-tu-nhieu",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -45762,7 +45761,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/fatestay-night-heavens-feel---iii-khuc-xuan-ca",
+        url: "https://www.top-phim.pro/infor/fatestay-night-heavens-feel-iii-khuc-xuan-ca",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -46230,7 +46229,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/strike-witches---duong-den-berlin",
+        url: "https://www.top-phim.pro/infor/strike-witches-duong-den-berlin",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -46704,7 +46703,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bup-be-ky-uc--ngoai-truyen-su-vinh-hang-va-bup-be-ky-uc",
+        url: "https://www.top-phim.pro/infor/bup-be-ky-uc-ngoai-truyen-su-vinh-hang-va-bup-be-ky-uc",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -46944,13 +46943,13 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/hau-lang---gen-z",
+        url: "https://www.top-phim.pro/infor/hau-lang-gen-z",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/vo-trang-nguyen-to-khat-nhi---thanh-du-troi-ban",
+        url: "https://www.top-phim.pro/infor/vo-trang-nguyen-to-khat-nhi-thanh-du-troi-ban",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -47154,7 +47153,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/white-hot-thang-tram-cua-abercrombie--fitch",
+        url: "https://www.top-phim.pro/infor/white-hot-thang-tram-cua-abercrombie-fitch",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -47352,7 +47351,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/django--django",
+        url: "https://www.top-phim.pro/infor/django-django",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -47430,7 +47429,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/de-toi-giai-thich--kevin-hart",
+        url: "https://www.top-phim.pro/infor/de-toi-giai-thich-kevin-hart",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -47814,7 +47813,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/son-ha-lenh--thien-nhai-khach",
+        url: "https://www.top-phim.pro/infor/son-ha-lenh-thien-nhai-khach",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -47844,7 +47843,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/mechamato---loat-phim-hoat-hinh",
+        url: "https://www.top-phim.pro/infor/mechamato-loat-phim-hoat-hinh",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -47880,7 +47879,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/thai-binh-luan---chuyen-tau-dinh-menh",
+        url: "https://www.top-phim.pro/infor/thai-binh-luan-chuyen-tau-dinh-menh",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -47958,7 +47957,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/duoi-rong---chuong-phu-nhap-long-dau-ho",
+        url: "https://www.top-phim.pro/infor/duoi-rong-chuong-phu-nhap-long-dau-ho",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -48150,7 +48149,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/diep-tien---vet-bot-tai-uong",
+        url: "https://www.top-phim.pro/infor/diep-tien-vet-bot-tai-uong",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -48318,7 +48317,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/kizumonogatari-phan-3--lanh-huyet",
+        url: "https://www.top-phim.pro/infor/kizumonogatari-phan-3-lanh-huyet",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -49224,7 +49223,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/chu-ngua-spirit---tu-do-rong-ruoi-giang-sinh-cung-spirit",
+        url: "https://www.top-phim.pro/infor/chu-ngua-spirit-tu-do-rong-ruoi-giang-sinh-cung-spirit",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -49992,7 +49991,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/pnl---dans-la-legende-tour",
+        url: "https://www.top-phim.pro/infor/pnl-dans-la-legende-tour",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -50754,7 +50753,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/high--low-ke-can-ba-x",
+        url: "https://www.top-phim.pro/infor/high-low-ke-can-ba-x",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -51162,7 +51161,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/alexa--katie-phan-3",
+        url: "https://www.top-phim.pro/infor/alexa-katie-phan-3",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -51960,7 +51959,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/digimon-adventure-02---con-bao-digimon-do-bo-digimental-hoang-kim",
+        url: "https://www.top-phim.pro/infor/digimon-adventure-02-con-bao-digimon-do-bo-digimental-hoang-kim",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -52104,7 +52103,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/joy--nguoi-phu-nu-mang-ten-niem-vui",
+        url: "https://www.top-phim.pro/infor/joy-nguoi-phu-nu-mang-ten-niem-vui",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -52176,7 +52175,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/ma-phap-thieu-nu-nanoha---movie-1",
+        url: "https://www.top-phim.pro/infor/ma-phap-thieu-nu-nanoha-movie-1",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -52602,7 +52601,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/code-geass-lelouch-of-the-rebellion-iii---glorification",
+        url: "https://www.top-phim.pro/infor/code-geass-lelouch-of-the-rebellion-iii-glorification",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -52758,7 +52757,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/cuoc-phieu-luu-cua-mr-peabody--cau-be-sherman",
+        url: "https://www.top-phim.pro/infor/cuoc-phieu-luu-cua-mr-peabody-cau-be-sherman",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -52980,7 +52979,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/quan-an-vui-nhon---working",
+        url: "https://www.top-phim.pro/infor/quan-an-vui-nhon-working",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -53520,7 +53519,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/northmen---a-viking-saga",
+        url: "https://www.top-phim.pro/infor/northmen-a-viking-saga",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -53844,7 +53843,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/tho-san-bong-dem---vu-khi-sinh-tu-phan-2",
+        url: "https://www.top-phim.pro/infor/tho-san-bong-dem-vu-khi-sinh-tu-phan-2",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -53946,7 +53945,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/steinsgate-the-movie---load-region-of-deja-vu",
+        url: "https://www.top-phim.pro/infor/steinsgate-the-movie-load-region-of-deja-vu",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -54468,7 +54467,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nguoi-kien--chien-binh-ong",
+        url: "https://www.top-phim.pro/infor/nguoi-kien-chien-binh-ong",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -55032,13 +55031,13 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/harold--kumar-thoat-khoi-nguc-guantanamo",
+        url: "https://www.top-phim.pro/infor/harold-kumar-thoat-khoi-nguc-guantanamo",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/crack-cocaine-tham-nhung--am-muu",
+        url: "https://www.top-phim.pro/infor/crack-cocaine-tham-nhung-am-muu",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -55410,7 +55409,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/klaus---cau-chuyen-giang-sinh",
+        url: "https://www.top-phim.pro/infor/klaus-cau-chuyen-giang-sinh",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -55458,7 +55457,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/harold--kumar-den-lau-dai-trang",
+        url: "https://www.top-phim.pro/infor/harold-kumar-den-lau-dai-trang",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -55578,7 +55577,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/thuan-thien-phu-ky-an---vu-an-quoc-tu-giam",
+        url: "https://www.top-phim.pro/infor/thuan-thien-phu-ky-an-vu-an-quoc-tu-giam",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -55596,7 +55595,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/isi--ossi",
+        url: "https://www.top-phim.pro/infor/isi-ossi",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -55704,7 +55703,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/ernest--celestine",
+        url: "https://www.top-phim.pro/infor/ernest-celestine",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -55776,7 +55775,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/anh-em-ket-nghia-malcolm-x--muhammad-ali",
+        url: "https://www.top-phim.pro/infor/anh-em-ket-nghia-malcolm-x-muhammad-ali",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -56640,7 +56639,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/lac-vao-xu-oz-vi-dai--quyen-nang",
+        url: "https://www.top-phim.pro/infor/lac-vao-xu-oz-vi-dai-quyen-nang",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -56964,7 +56963,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/barbie--chelsea-the-lost-birthday",
+        url: "https://www.top-phim.pro/infor/barbie-chelsea-the-lost-birthday",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -56982,7 +56981,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/chu-cho-max-2--nguoi-hung-nha-trang",
+        url: "https://www.top-phim.pro/infor/chu-cho-max-2-nguoi-hung-nha-trang",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -57948,7 +57947,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/trach-nhiem--su-ho-then",
+        url: "https://www.top-phim.pro/infor/trach-nhiem-su-ho-then",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -58230,7 +58229,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/vua-hai-tac-chuong-chopper-plus---no-ro-giua-mua-dong-cay-hoa-anh-dao-huyen-dieu",
+        url: "https://www.top-phim.pro/infor/vua-hai-tac-chuong-chopper-plus-no-ro-giua-mua-dong-cay-hoa-anh-dao-huyen-dieu",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -59280,7 +59279,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/akame-ga-kill--theater",
+        url: "https://www.top-phim.pro/infor/akame-ga-kill-theater",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -59382,7 +59381,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/hau-truong-tho-san-quai-vat--mua-2",
+        url: "https://www.top-phim.pro/infor/hau-truong-tho-san-quai-vat-mua-2",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -59424,7 +59423,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/conan---nguoi-hung-man-di",
+        url: "https://www.top-phim.pro/infor/conan-nguoi-hung-man-di",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -59436,7 +59435,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/um-ano-inesquecivel---outono",
+        url: "https://www.top-phim.pro/infor/um-ano-inesquecivel-outono",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -61578,7 +61577,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/doi-mat---ao-tuong-thanh-that",
+        url: "https://www.top-phim.pro/infor/doi-mat-ao-tuong-thanh-that",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -61626,7 +61625,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/arlo--cau-be-ca-sau",
+        url: "https://www.top-phim.pro/infor/arlo-cau-be-ca-sau",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -61824,7 +61823,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/uu-tu---truyen-ngan-patrick",
+        url: "https://www.top-phim.pro/infor/uu-tu-truyen-ngan-patrick",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -61860,7 +61859,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/moi-gioi-hoang-hon--quan-cam",
+        url: "https://www.top-phim.pro/infor/moi-gioi-hoang-hon-quan-cam",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -61878,7 +61877,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/doi-cuu-ho-malibu--loat-phim",
+        url: "https://www.top-phim.pro/infor/doi-cuu-ho-malibu-loat-phim",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -62016,7 +62015,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/vua-hai-tac-chuong-sabo---moi-lien-ket-cua-ba-anh-em-va-y-chi-duoc-ke-thua",
+        url: "https://www.top-phim.pro/infor/vua-hai-tac-chuong-sabo-moi-lien-ket-cua-ba-anh-em-va-y-chi-duoc-ke-thua",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -62856,7 +62855,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bojack-horseman---tap-dac-biet-mung-giang-sinh-dieu-uoc-giang-sinh-cua-sabrina",
+        url: "https://www.top-phim.pro/infor/bojack-horseman-tap-dac-biet-mung-giang-sinh-dieu-uoc-giang-sinh-cua-sabrina",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -63030,7 +63029,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/oprah--viola-su-kien-dac-biet-cua-netflix",
+        url: "https://www.top-phim.pro/infor/oprah-viola-su-kien-dac-biet-cua-netflix",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -63336,7 +63335,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/den-bac-do-tinh---thien-luong-chi-tien",
+        url: "https://www.top-phim.pro/infor/den-bac-do-tinh-thien-luong-chi-tien",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -63408,7 +63407,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/zim---ke-xam-luoc-tien-vao-florpus",
+        url: "https://www.top-phim.pro/infor/zim-ke-xam-luoc-tien-vao-florpus",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -63768,7 +63767,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/barbie-the-princess--the-popstar",
+        url: "https://www.top-phim.pro/infor/barbie-the-princess-the-popstar",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -63936,7 +63935,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/thu-sau-ngay-13--phan-6-jason-song-lai",
+        url: "https://www.top-phim.pro/infor/thu-sau-ngay-13-phan-6-jason-song-lai",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -64416,7 +64415,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/huu-nhan-so---natsume-yuujinchou-phan-2",
+        url: "https://www.top-phim.pro/infor/huu-nhan-so-natsume-yuujinchou-phan-2",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -64536,7 +64535,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/munich--bo-vuc-chien-tranh",
+        url: "https://www.top-phim.pro/infor/munich-bo-vuc-chien-tranh",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -64776,7 +64775,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/minions--more-volume-1",
+        url: "https://www.top-phim.pro/infor/minions-more-volume-1",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -65664,7 +65663,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/ngay-ay--bay-gio",
+        url: "https://www.top-phim.pro/infor/ngay-ay-bay-gio",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -67110,7 +67109,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bob-lazar-khu-vuc-51--dia-bay",
+        url: "https://www.top-phim.pro/infor/bob-lazar-khu-vuc-51-dia-bay",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -67464,7 +67463,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/scandal---bi-mat-tham-do",
+        url: "https://www.top-phim.pro/infor/scandal-bi-mat-tham-do",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -67974,7 +67973,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/lego-batman-the-movie---dc-super-heroes-unite",
+        url: "https://www.top-phim.pro/infor/lego-batman-the-movie-dc-super-heroes-unite",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -69252,7 +69251,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/takizawa-kabuki-zero-2020--phim-dien-anh",
+        url: "https://www.top-phim.pro/infor/takizawa-kabuki-zero-2020-phim-dien-anh",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -69264,7 +69263,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/banh-que--mochi-dai-tiec-ngay-le",
+        url: "https://www.top-phim.pro/infor/banh-que-mochi-dai-tiec-ngay-le",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -69486,7 +69485,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/dan-ong-phu-nu--tre-em",
+        url: "https://www.top-phim.pro/infor/dan-ong-phu-nu-tre-em",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -69570,7 +69569,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/lara-croft-ke-cuop-lang-mo---cai-noi-cua-su-song",
+        url: "https://www.top-phim.pro/infor/lara-croft-ke-cuop-lang-mo-cai-noi-cua-su-song",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -71262,7 +71261,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/di-nang---trong-moi-chung-ta",
+        url: "https://www.top-phim.pro/infor/di-nang-trong-moi-chung-ta",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -71898,7 +71897,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/tiger--bunny-khoi-dau",
+        url: "https://www.top-phim.pro/infor/tiger-bunny-khoi-dau",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -72336,7 +72335,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/code-geass-lelouch-of-the-rebellion-ii---transgression",
+        url: "https://www.top-phim.pro/infor/code-geass-lelouch-of-the-rebellion-ii-transgression",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -72828,7 +72827,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/can-sa---phuong-thuoc-lieu-linh",
+        url: "https://www.top-phim.pro/infor/can-sa-phuong-thuoc-lieu-linh",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -73176,7 +73175,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/highlow--ban-dien-anh-2-tan-cung-bau-troi",
+        url: "https://www.top-phim.pro/infor/highlow-ban-dien-anh-2-tan-cung-bau-troi",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -73434,7 +73433,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/thien-tuong-hung-su---kiem-rong",
+        url: "https://www.top-phim.pro/infor/thien-tuong-hung-su-kiem-rong",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -73500,7 +73499,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/chen-thanh-cam-nhan-thien-duong-3---khuc-xuan-ca",
+        url: "https://www.top-phim.pro/infor/chen-thanh-cam-nhan-thien-duong-3-khuc-xuan-ca",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -73542,7 +73541,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/rl-stine---gio-ma-am-dung-nghi-ve-no",
+        url: "https://www.top-phim.pro/infor/rl-stine-gio-ma-am-dung-nghi-ve-no",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -73866,13 +73865,13 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nguy-thanh-tiem-ba---huyet-chien",
+        url: "https://www.top-phim.pro/infor/nguy-thanh-tiem-ba-huyet-chien",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/thao-xich---danny-doi-cho",
+        url: "https://www.top-phim.pro/infor/thao-xich-danny-doi-cho",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -74436,7 +74435,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/chu-nghia-tu-ban--mot-cau-chuyen-tinh",
+        url: "https://www.top-phim.pro/infor/chu-nghia-tu-ban-mot-cau-chuyen-tinh",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -74784,7 +74783,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/selena-gomez-my-mind--me",
+        url: "https://www.top-phim.pro/infor/selena-gomez-my-mind-me",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -74808,7 +74807,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/tiger--bunny-troi-day",
+        url: "https://www.top-phim.pro/infor/tiger-bunny-troi-day",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -74910,7 +74909,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/highlow--ban-dien-anh-3-nhiem-vu-cuoi",
+        url: "https://www.top-phim.pro/infor/highlow-ban-dien-anh-3-nhiem-vu-cuoi",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -75210,7 +75209,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/perfume-reframe---hoa-nhac-qua-man-anh",
+        url: "https://www.top-phim.pro/infor/perfume-reframe-hoa-nhac-qua-man-anh",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -75360,7 +75359,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/tinh-huynh-de---co-bay-phap-phoi",
+        url: "https://www.top-phim.pro/infor/tinh-huynh-de-co-bay-phap-phoi",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -75480,7 +75479,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bo-dung-lam-con-mat-mat-nua--tiec-hau",
+        url: "https://www.top-phim.pro/infor/bo-dung-lam-con-mat-mat-nua-tiec-hau",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -76650,7 +76649,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/kuroko---tuyen-thu-vo-hinh-cup-mua-dong-bong-toi-va-anh-sang",
+        url: "https://www.top-phim.pro/infor/kuroko-tuyen-thu-vo-hinh-cup-mua-dong-bong-toi-va-anh-sang",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -77814,7 +77813,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/code-geass--su-phuc-sinh-cua-lelouch",
+        url: "https://www.top-phim.pro/infor/code-geass-su-phuc-sinh-cua-lelouch",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -78042,7 +78041,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/xa-nu--co-gai-duoc-ran-khong-lo-nuoi-lon",
+        url: "https://www.top-phim.pro/infor/xa-nu-co-gai-duoc-ran-khong-lo-nuoi-lon",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -78378,7 +78377,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/barcelona---doi-bong-vi-dai",
+        url: "https://www.top-phim.pro/infor/barcelona-doi-bong-vi-dai",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -78414,7 +78413,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/hanh-tinh-cua-chung-ta---hau-truong",
+        url: "https://www.top-phim.pro/infor/hanh-tinh-cua-chung-ta-hau-truong",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -78516,7 +78515,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/cau-lac-bo-boi-nam---boi-den-tan-cung-the-gioi---giac-mo",
+        url: "https://www.top-phim.pro/infor/cau-lac-bo-boi-nam-boi-den-tan-cung-the-gioi-giac-mo",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -79152,7 +79151,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/threads---our-tapestry-of-love",
+        url: "https://www.top-phim.pro/infor/threads-our-tapestry-of-love",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -79164,7 +79163,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/su-menh-than-chet-cuoc-muu-phan-cua-bui-kim-cuong---mot-thanh-hyorinmaru-khac",
+        url: "https://www.top-phim.pro/infor/su-menh-than-chet-cuoc-muu-phan-cua-bui-kim-cuong-mot-thanh-hyorinmaru-khac",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -79476,7 +79475,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/deathstroke-ky-si--rong",
+        url: "https://www.top-phim.pro/infor/deathstroke-ky-si-rong",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -79578,7 +79577,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/teen-titans-go--cac-nu-sieu-anh-hung-dc-mayhem-trong-da-vu-tru",
+        url: "https://www.top-phim.pro/infor/teen-titans-go-cac-nu-sieu-anh-hung-dc-mayhem-trong-da-vu-tru",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -79818,7 +79817,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/x---the-exploited",
+        url: "https://www.top-phim.pro/infor/x-the-exploited",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -79920,7 +79919,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/iron-man--hulk-heroes-united",
+        url: "https://www.top-phim.pro/infor/iron-man-hulk-heroes-united",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -80304,7 +80303,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nhung-chang-trai-nam-ay-tai-but---em-van-yeu-anh",
+        url: "https://www.top-phim.pro/infor/nhung-chang-trai-nam-ay-tai-but-em-van-yeu-anh",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -80736,7 +80735,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/secrets--lies",
+        url: "https://www.top-phim.pro/infor/secrets-lies",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -81330,7 +81329,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/um-ano-inesquecivel---inverno",
+        url: "https://www.top-phim.pro/infor/um-ano-inesquecivel-inverno",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -81570,7 +81569,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/chien-thuat-bong---tien",
+        url: "https://www.top-phim.pro/infor/chien-thuat-bong-tien",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -81888,13 +81887,13 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/crayon-shin-chan-chien-tranh-chop-nhoang--phi-vu-bi-mat-cua-mong-lon",
+        url: "https://www.top-phim.pro/infor/crayon-shin-chan-chien-tranh-chop-nhoang-phi-vu-bi-mat-cua-mong-lon",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/wallace-va-gromit---chiec-quan-rac-roi",
+        url: "https://www.top-phim.pro/infor/wallace-va-gromit-chiec-quan-rac-roi",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -82170,7 +82169,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/ivy--bean-tong-co-nhung-con-ma",
+        url: "https://www.top-phim.pro/infor/ivy-bean-tong-co-nhung-con-ma",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -82530,7 +82529,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bay-vien-ngoc-rong-z-broly---sieu-saiyan-huyen-thoai",
+        url: "https://www.top-phim.pro/infor/bay-vien-ngoc-rong-z-broly-sieu-saiyan-huyen-thoai",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -83508,7 +83507,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/audrie--daisy",
+        url: "https://www.top-phim.pro/infor/audrie-daisy",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -83526,7 +83525,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/lupin-de-tam--tham-tu-conan",
+        url: "https://www.top-phim.pro/infor/lupin-de-tam-tham-tu-conan",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -83676,7 +83675,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/con-pho-khoc-liet--giang-ho-gac-kiem",
+        url: "https://www.top-phim.pro/infor/con-pho-khoc-liet-giang-ho-gac-kiem",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -83742,7 +83741,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/sturgill-simpson-gioi-thieu-sound--fury",
+        url: "https://www.top-phim.pro/infor/sturgill-simpson-gioi-thieu-sound-fury",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -85116,7 +85115,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/xa-vuong--tai-hoa-ap-den-chay-hay-la-chet",
+        url: "https://www.top-phim.pro/infor/xa-vuong-tai-hoa-ap-den-chay-hay-la-chet",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -85422,7 +85421,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/star-wars-phan-2---cuoc-tan-cong-cua-nguoi-vo-tinh",
+        url: "https://www.top-phim.pro/infor/star-wars-phan-2-cuoc-tan-cong-cua-nguoi-vo-tinh",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -86064,7 +86063,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/ben--jody",
+        url: "https://www.top-phim.pro/infor/ben-jody",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -86772,7 +86771,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bigflo--oli-hien-tuong-hip-hop",
+        url: "https://www.top-phim.pro/infor/bigflo-oli-hien-tuong-hip-hop",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -87204,7 +87203,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/duong-quy-phi---my-nhan-vuong-trieu",
+        url: "https://www.top-phim.pro/infor/duong-quy-phi-my-nhan-vuong-trieu",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -87576,7 +87575,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/chompy--the-girls",
+        url: "https://www.top-phim.pro/infor/chompy-the-girls",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -88578,7 +88577,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/thieu-nien-bong-chuyen--tai-nang-va-cam-giac",
+        url: "https://www.top-phim.pro/infor/thieu-nien-bong-chuyen-tai-nang-va-cam-giac",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -88668,7 +88667,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/asterix--obelix-take-on-caesar",
+        url: "https://www.top-phim.pro/infor/asterix-obelix-take-on-caesar",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -88974,7 +88973,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/thien-than--ac-quy",
+        url: "https://www.top-phim.pro/infor/thien-than-ac-quy",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -89232,13 +89231,13 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bong-toi-va-xuong-trang---hau-tiec",
+        url: "https://www.top-phim.pro/infor/bong-toi-va-xuong-trang-hau-tiec",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/honey--clover",
+        url: "https://www.top-phim.pro/infor/honey-clover",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -89370,7 +89369,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/cam-bay-mat-trang---muc-tieu-trai-dat",
+        url: "https://www.top-phim.pro/infor/cam-bay-mat-trang-muc-tieu-trai-dat",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -89442,7 +89441,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/pan--vung-dat-neverland",
+        url: "https://www.top-phim.pro/infor/pan-vung-dat-neverland",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -89940,7 +89939,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nhung-chang-trai-nam-ay-mai-yeu--tiec-hau",
+        url: "https://www.top-phim.pro/infor/nhung-chang-trai-nam-ay-mai-yeu-tiec-hau",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -90042,7 +90041,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bo-ba-trom-cap-say-phe-va-that-nghiep---truc-tiep-tai-austin",
+        url: "https://www.top-phim.pro/infor/bo-ba-trom-cap-say-phe-va-that-nghiep-truc-tiep-tai-austin",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -90288,7 +90287,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/ngoi-nha-nao-nhiet--ban-dien-anh",
+        url: "https://www.top-phim.pro/infor/ngoi-nha-nao-nhiet-ban-dien-anh",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -90480,7 +90479,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/berserk-the-golden-age-arc-i---the-egg-of-the-king",
+        url: "https://www.top-phim.pro/infor/berserk-the-golden-age-arc-i-the-egg-of-the-king",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -90786,7 +90785,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/doraemon-nobita-va-hon-dao-dieu-ki--cuoc-phieu-luu-cua-loai-thu",
+        url: "https://www.top-phim.pro/infor/doraemon-nobita-va-hon-dao-dieu-ki-cuoc-phieu-luu-cua-loai-thu",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -90948,7 +90947,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/hoang-tu--em",
+        url: "https://www.top-phim.pro/infor/hoang-tu-em",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -91446,7 +91445,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/mat-lenh-cuoi-cung---thinh-phong-gia",
+        url: "https://www.top-phim.pro/infor/mat-lenh-cuoi-cung-thinh-phong-gia",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -91818,7 +91817,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/marianne--leonard-loi-yeu-duong",
+        url: "https://www.top-phim.pro/infor/marianne-leonard-loi-yeu-duong",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -91842,7 +91841,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/mr--mrs-gambler",
+        url: "https://www.top-phim.pro/infor/mr-mrs-gambler",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -92508,7 +92507,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/khu-rung-nho---hathu",
+        url: "https://www.top-phim.pro/infor/khu-rung-nho-hathu",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -92802,7 +92801,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/lao-ve-si---ong-noi-toi-la-dac-cong",
+        url: "https://www.top-phim.pro/infor/lao-ve-si-ong-noi-toi-la-dac-cong",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -93120,7 +93119,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/cuon-so-tu-than-l---thay-doi-the-gioi",
+        url: "https://www.top-phim.pro/infor/cuon-so-tu-than-l-thay-doi-the-gioi",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -93582,7 +93581,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/tham-tu-knight--ngay-doc-lap",
+        url: "https://www.top-phim.pro/infor/tham-tu-knight-ngay-doc-lap",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -93954,7 +93953,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/dao-hai-tac-2--cuoc-phieu-luu-tren-dao-dong-ho",
+        url: "https://www.top-phim.pro/infor/dao-hai-tac-2-cuoc-phieu-luu-tren-dao-dong-ho",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -94206,7 +94205,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/the-gioi-may-bay-anh-hung--bien-lua",
+        url: "https://www.top-phim.pro/infor/the-gioi-may-bay-anh-hung-bien-lua",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -94350,7 +94349,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/dao-hai-tac-8--cuoc-chien-o-vuong-quoc-alabasta",
+        url: "https://www.top-phim.pro/infor/dao-hai-tac-8-cuoc-chien-o-vuong-quoc-alabasta",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -94386,7 +94385,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/cao-boi--nguoi-ngoai-hanh-tinh",
+        url: "https://www.top-phim.pro/infor/cao-boi-nguoi-ngoai-hanh-tinh",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -95628,7 +95627,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/dao-hai-tac-12-z---ky-phung-dich-thu",
+        url: "https://www.top-phim.pro/infor/dao-hai-tac-12-z-ky-phung-dich-thu",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -95778,7 +95777,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/hai-do--bay-chu-lun",
+        url: "https://www.top-phim.pro/infor/hai-do-bay-chu-lun",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -95796,7 +95795,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/shin---cau-be-but-chi-25-cuoc-xam-lang-cua-nguoi-ngoai-hanh-tinh-shiriri",
+        url: "https://www.top-phim.pro/infor/shin-cau-be-but-chi-25-cuoc-xam-lang-cua-nguoi-ngoai-hanh-tinh-shiriri",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -95970,7 +95969,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/pokemon-mewtwo-phan-cong--tien-hoa",
+        url: "https://www.top-phim.pro/infor/pokemon-mewtwo-phan-cong-tien-hoa",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -96618,7 +96617,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/hansel--gretel-tho-san-phu-thuy",
+        url: "https://www.top-phim.pro/infor/hansel-gretel-tho-san-phu-thuy",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -97026,7 +97025,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/star-wars-phan-3---su-tra-thu-cua-nguoi-sith",
+        url: "https://www.top-phim.pro/infor/star-wars-phan-3-su-tra-thu-cua-nguoi-sith",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -97848,7 +97847,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/norman--giac-quan-thu-sau",
+        url: "https://www.top-phim.pro/infor/norman-giac-quan-thu-sau",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -98208,7 +98207,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/jumanji---tro-choi-ky-ao-thang-cap",
+        url: "https://www.top-phim.pro/infor/jumanji-tro-choi-ky-ao-thang-cap",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -99012,7 +99011,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/qua-nhanh-qua-nguy-hiem-hobbs--shaw",
+        url: "https://www.top-phim.pro/infor/qua-nhanh-qua-nguy-hiem-hobbs-shaw",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -99708,7 +99707,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/sat-thu-john-wick-phan-3---chuan-bi-chien-tranh",
+        url: "https://www.top-phim.pro/infor/sat-thu-john-wick-phan-3-chuan-bi-chien-tranh",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -100104,7 +100103,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/jin-roh--lu-doan-soi",
+        url: "https://www.top-phim.pro/infor/jin-roh-lu-doan-soi",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -100830,7 +100829,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/star-wars-phan-1---hiem-hoa-bong-ma",
+        url: "https://www.top-phim.pro/infor/star-wars-phan-1-hiem-hoa-bong-ma",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -101454,7 +101453,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bong-lai-long-quan--kho-bau-tu-phuc",
+        url: "https://www.top-phim.pro/infor/bong-lai-long-quan-kho-bau-tu-phuc",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -101622,7 +101621,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/cau-chuyen-nguoc-tam-ai-tinh--yeu-kin",
+        url: "https://www.top-phim.pro/infor/cau-chuyen-nguoc-tam-ai-tinh-yeu-kin",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -101712,7 +101711,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/con-duong-cuu-sinh--xong-khoi-cam-khu",
+        url: "https://www.top-phim.pro/infor/con-duong-cuu-sinh-xong-khoi-cam-khu",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -101820,7 +101819,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/co-than-3--nguoi-kiem-soat",
+        url: "https://www.top-phim.pro/infor/co-than-3-nguoi-kiem-soat",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -102108,7 +102107,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/asura-tam-mat--chin-o-khoa",
+        url: "https://www.top-phim.pro/infor/asura-tam-mat-chin-o-khoa",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -102198,7 +102197,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/dich-nhan-kiet--ban-do-luan-hoi",
+        url: "https://www.top-phim.pro/infor/dich-nhan-kiet-ban-do-luan-hoi",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -102252,19 +102251,19 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/chuyen-la-dan-gian--nguy-hi-ban",
+        url: "https://www.top-phim.pro/infor/chuyen-la-dan-gian-nguy-hi-ban",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/chuyen-dong-bac--toi-ten-trieu-hong-binh",
+        url: "https://www.top-phim.pro/infor/chuyen-dong-bac-toi-ten-trieu-hong-binh",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/an-dai-cuop-quoc-dan-2--dao-tac-tien-phong",
+        url: "https://www.top-phim.pro/infor/an-dai-cuop-quoc-dan-2-dao-tac-tien-phong",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -102336,13 +102335,13 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bao-tuyet--am-chien-thien-co",
+        url: "https://www.top-phim.pro/infor/bao-tuyet-am-chien-thien-co",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bao-thanh-thien--thu-vien-quy-su",
+        url: "https://www.top-phim.pro/infor/bao-thanh-thien-thu-vien-quy-su",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -102396,7 +102395,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/bat-luong-nhan-chi--u-minh-co-vuong",
+        url: "https://www.top-phim.pro/infor/bat-luong-nhan-chi-u-minh-co-vuong",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -103878,7 +103877,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/yolo--ban-chi-song-mot-lan",
+        url: "https://www.top-phim.pro/infor/yolo-ban-chi-song-mot-lan",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -103896,7 +103895,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/hoang-phi-hong--bi-an-mot-huyen-thoai",
+        url: "https://www.top-phim.pro/infor/hoang-phi-hong-bi-an-mot-huyen-thoai",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -104130,7 +104129,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/loc-dinh-ky-2--than-long-giao",
+        url: "https://www.top-phim.pro/infor/loc-dinh-ky-2-than-long-giao",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -104268,7 +104267,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/truy-tim-nguoi-hoan-hao-2--cuon-sach-tinh-yeu",
+        url: "https://www.top-phim.pro/infor/truy-tim-nguoi-hoan-hao-2-cuon-sach-tinh-yeu",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -104916,7 +104915,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/asura--thanh-pho-toi-ac",
+        url: "https://www.top-phim.pro/infor/asura-thanh-pho-toi-ac",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -104952,7 +104951,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/nguoi-yeu-dau---phan-1",
+        url: "https://www.top-phim.pro/infor/nguoi-yeu-dau-phan-1",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -106386,7 +106385,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/sat-thu-nhan-tao-2--mau-vat-con-lai",
+        url: "https://www.top-phim.pro/infor/sat-thu-nhan-tao-2-mau-vat-con-lai",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -106686,7 +106685,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/dao-doc-dac---tu-mau-thien-linh-cai",
+        url: "https://www.top-phim.pro/infor/dao-doc-dac-tu-mau-thien-linh-cai",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -107322,7 +107321,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/peter-pan--wendy",
+        url: "https://www.top-phim.pro/infor/peter-pan-wendy",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -107940,7 +107939,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/to-end-all-war-oppenheimer--the-atomic-bomb",
+        url: "https://www.top-phim.pro/infor/to-end-all-war-oppenheimer-the-atomic-bomb",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -108174,7 +108173,7 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/do-trang--xanh-hoang-gia",
+        url: "https://www.top-phim.pro/infor/do-trang-xanh-hoang-gia",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
@@ -109590,13 +109589,13 @@ export default function sitemap() {
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/tro-choi-sinh-tu-hung-nhai---phan-2",
+        url: "https://www.top-phim.pro/infor/tro-choi-sinh-tu-hung-nhai-phan-2",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
       },
       {
-        url: "https://www.top-phim.pro/infor/tro-choi-sinh-tu-hung-nhai---phan-1",
+        url: "https://www.top-phim.pro/infor/tro-choi-sinh-tu-hung-nhai-phan-1",
         lastModified: "2024-09-15",
        changeFrequency: "daily",
        priority: 0.7
