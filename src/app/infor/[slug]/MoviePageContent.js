@@ -4,6 +4,7 @@ import { useParams } from 'next/navigation';
 import MoviePopup from '@/components/layouts/MoviePopup'
 import './page.css'
 import Loading from '@/components/layouts/Loading';
+import Section2 from '@/components/layouts/Section2'
 export default function Page() {
   const params = useParams(); // Get the dynamic route parameters
   const filmSlug = params['slug']; // Access the dynamic parameter
@@ -71,14 +72,16 @@ export default function Page() {
                {item.name}
              </div>
            ))}
-         </div>
+          </div>
+          <Section2 category={dataFilm?.category?.slug}></Section2>
        </div>
-     </div>
+      </div>
      <MoviePopup
        isOpenPopup={isOpenPopup}
        setIsOpenPopup={setIsOpenPopup}
        src_film={linkEmbed}
-     />
+      />
+    
    </div>
   )
 }

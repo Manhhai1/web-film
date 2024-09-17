@@ -22,7 +22,6 @@ export const metadata = {
     title: 'Top Phim Mới | Phim HD | Xem phim nhanh | Phim VietSub | Thuyết Minh Hay Nhất | Top Phim Hay',
     description: 'Top Phim Mới chất lượng cao miễn phí. Xem phim hd VietSub. Phim thuyết minh chất lượng HD. Kho top-phim.pro chuẩn nhanh online hay hấp dẫn.',
   },
-  themeColor: '#000000',
   manifest: '/manifest.json',
   // Add structured data here
   other: {

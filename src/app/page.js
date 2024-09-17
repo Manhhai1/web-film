@@ -15,7 +15,7 @@ const Home = () => {
     
     <div>
       <div >
-          <MovieSearch> </MovieSearch>
+        <MovieSearch> </MovieSearch>
         <BannerSlider></BannerSlider>
         <Section type={list_section[4]}></Section>
         <Section type={list_section[3]}></Section>

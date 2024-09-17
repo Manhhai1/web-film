@@ -1,0 +1,99 @@
+/* Section2.css */
+.section {
+  }
+  
+  .section h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .slick-slider {
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .slick-prev, .slick-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    color: white;
+    width: 48px;
+    height: 48px;
+    z-index: 2;
+  }
+  
+  .slick-prev:hover, .slick-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .list-item{
+    text-align: center;
+    align-items: center;
+  }
+  .item {
+    /* Các thuộc tính mặc định */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease; /* Thêm hiệu ứng khi di chuột qua */
+  }
+  
+  @media (max-width: 1209px) {
+    .item{
+      width: 200px!important;
+      height: 300px!important;
+    }
+  }
+  @media (max-width: 614px) {
+    .item{
+      width: 160px!important;
+      height: 280px!important;
+    }
+  }
+  @media (max-width: 1026px) {
+    .item{
+      width: 230px!important;
+      height: 350px!important;
+    }
+  }
+  @media (max-width: 800px) {
+    .item{
+      width: 210px!important;
+      height: 320px!important;
+    }
+  }
+  @media (max-width: 724px) {
+    .item{
+      width: 190px!important;
+      height: 290px!important;
+    }
+  }
+  @media (max-width: 642px) {
+    .item{
+      width: 170px!important;
+      height: 260px!important;
+    }
+  }
+  @media (max-width: 570px) {
+    .item{
+      width: 150px!important;
+      height: 230px!important;
+    }
+  }
+  @media (max-width: 510px) {
+    .item{
+      width: 130px!important;
+      height: 200px!important;
+    }
+  }
+  @media (max-width: 408px) {
+    .item{
+      width: 110px!important;
+      height: 170px!important;
+    }
+  }

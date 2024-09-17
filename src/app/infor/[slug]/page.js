@@ -1,6 +1,5 @@
 
 import MoviePageContent from './MoviePageContent';
-
 export async function generateMetadata({ params }) {
   const filmSlug = params['slug'];
   async function fetchData() {
