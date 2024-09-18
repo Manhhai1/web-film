@@ -14,13 +14,13 @@ const Section2 = ({ category }) => {
         infinite: true,
         speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 2,
+        slidesToScroll: 4,
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 2,
+                    slidesToScroll: 3,
                 }
             }
         ]
@@ -29,7 +29,7 @@ const Section2 = ({ category }) => {
     useEffect(() => {
         async function fetchData() {
             try {
-                const res = await fetch(`https://phimapi.com/v1/api/the-loai/${category}?page=1`);
+                const res = await fetch(`https://phimapi.com/v1/api/the-loai/${category}?page=${Math.floor(Math.random() * 5+1)}`);
                 const movies = await res.json();
                 setFilms(movies.data?.items || movies.items);
             } catch (error) {
@@ -39,7 +39,7 @@ const Section2 = ({ category }) => {
         fetchData()
     }, {}); // Thêm category vào dependencies của useEffect
     return (
-        <div className="section">
+        <div className="section-2">
             <h4>Có thể bạn cũng thích</h4>
                 <Slider className='list-item' {...settings}>
                     {films?.map((movie, index) => (
