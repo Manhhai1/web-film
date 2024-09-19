@@ -21,7 +21,7 @@ const MovieCard = ({ movie }) => {
           alt={movie?.name || 'Movie Poster'}
           width={230} 
           height={350}
-          loading="lazy"
+          loading="eager"
         />
         
         <h1 className='name-film'>{movie?.name}</h1>
