@@ -1,7 +1,7 @@
 /* General styling for the input */
 input {
-  width: 100%; /* Full width in its container */
-  max-width: 400px; /* Maximum width */
+  overflow: hidden;
+  width: 400px; /* Maximum width */
   padding: 10px;
   margin-bottom: 10px;
   margin-right: 10px;

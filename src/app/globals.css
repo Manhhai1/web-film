@@ -1,12 +1,23 @@
 body {
-  background: #1a1a1a;
+    background: #1a1a1a;
     margin: 0;
     font-family: Arial, Tahoma;
     font-size: 14px;
     color: #dcdcdc;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+html, body {
+  height: 100%;
 }
 
+.wrapper {
+  display: flex; /* hoặc display: grid; */
+  flex-direction: column; /* Điều chỉnh tùy theo layout */
+  height: 100%;
+}
 a {
   color: white;
 }
