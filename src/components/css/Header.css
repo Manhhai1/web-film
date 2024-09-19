@@ -93,6 +93,7 @@ nav {
   left: 0;
   padding: 10px 0;
   list-style: none;
+ 
   width: 320px;
   border: solid 1px gray;
   z-index: 10;
@@ -163,6 +164,7 @@ nav {
   margin: 0;
   font-weight: 500;
   text-align: left;
+  width: 120px;
   margin-left: 10px;
   
 }
@@ -201,11 +203,14 @@ nav {
   animation: fadeIn 0.3s ease-in-out;
   z-index: 100;
 }
-
+.dropdownMenu-child li{
+  width: 130px; 
+  height: 30px;
+  
+}
 .dropdownMenu-child li h3{
-  padding: 5px 0;
-  width: 120px; 
-  height: 20px;
+  padding: 5px;
+  width: 100%;
 }
  .dropdownMenu-child li a {
   color: #fff;
@@ -222,7 +227,7 @@ nav {
 }
 /* Sidebar opening transition */
 .openSidebar {
-  width: 260px;
+  width: 280px;
   transition: 0.3s ease;
 }
 
