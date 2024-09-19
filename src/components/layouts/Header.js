@@ -8,7 +8,7 @@ import logo from '../../assets/img/logo-1.webp';
 const Header = () => {
   const [category, setCategory] = useState([]);
   const [country, setCountry] = useState([]);
-  const years = [2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000];
+  const years = [2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000, 1999];
   const [isOpenSubmenuCate, setOpenSubmenuCate] = useState(false);
   const [isOpenSubmenuCountry, setOpenSubmenuCountry] = useState(false);
   const [isOpenSubmenuYear, setOpenSubmenuYear] = useState(false);
@@ -47,6 +47,7 @@ const Header = () => {
         <li><h2><Link href="/phim-moi">Phim mới</Link></h2></li>
         <li><h2><Link href="/phim-le">Phim lẻ</Link></h2></li>
         <li><h2><Link href="/phim-bo">Phim bộ</Link></h2></li>
+        <li><h2><Link href="/phim-chieu-rap">Phim chiếu rạp</Link></h2></li>
         <li className='dropdown'>
           <h2>Thể loại</h2> {/* Tiêu đề cho danh sách thể loại */}
           <ul className='dropdownMenu'>

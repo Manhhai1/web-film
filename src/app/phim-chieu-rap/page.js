@@ -1,10 +1,9 @@
 
 import MoviePageContent from './MoviePageContent';
-
-export async function generateMetadata({ params }) {
-  const year = params['namId'];
+import server_constant from '../constance'
+export async function generateMetadata() {
   async function fetchData() {
-    const res = await fetch(`http://localhost:5000/api/nam/${year}?page=1`);
+    const res = await fetch(`${server_constant}/api/the-loai/phim-chieu-rap?page=1`);
     const data = await res.json();
     return data?.data?.seoOnPage;
   }
@@ -13,10 +12,9 @@ export async function generateMetadata({ params }) {
     title: seoOnPage?.titleHead || 'Default Title',
     description: seoOnPage?.descriptionHead || 'Default description',
     openGraph: {
-      title: seoOnPage?.titleHead || 'phim theo năm',
-      description: seoOnPage?.descriptionHead || 'Tổng hợp phim theo năm',
-      url: `https://top-phim.pro/nam/${year}`,
-      images:  seoOnPage?.og_image?.map((item) => `https://phimimg.com/${item}`) || []
+      title: seoOnPage?.titleHead || '',
+      description: seoOnPage?.descriptionHead || '',
+      url: `https://top-phim.pro/phim-chieu-rap`,
     }
   };
 }

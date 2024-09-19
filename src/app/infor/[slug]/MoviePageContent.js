@@ -46,7 +46,7 @@ export default function Page() {
                     Xem phim
                 </div>
                 <div className="btn-watch-trailer"  src={dataFilm?.trailer_url}>
-                    <a href={dataFilm?.trailer_url} target="_blank">Trailer</a>
+                    <a href={dataFilm?.trailer_url} target="_blank" rel="noopener noreferrer">Trailer</a>
                 </div>
            </div>
          </div>

@@ -2,23 +2,20 @@
 
 import './page.css';
 import Section from '@/components/layouts/Section';
-import { useParams } from 'next/navigation';
+import server from '../constance';
 import ReactPaginate from 'react-paginate';
-import server from '@/app/constance';
 import React, { useEffect, useState } from 'react';
 import BannerSlider from '@/components/layouts/BannerSlider';
 import MovieSearch from '@/components/layouts/MovieSearch';
 
 const Page = () => {
-  const params = useParams(); // Get the dynamic route parameters
-  const year = params['namId']; // Access the dynamic parameter
   const [currentPage, setCurrentPage] = useState(0); // ReactPaginate uses zero-based index
   const [totalPages, setTotalPages] = useState(10); // Default total pages (to be updated by Section)
   const [type, setType] = useState({
     type_film: '',
     name_type: '',
-      link: `${server}/api/nam/${year}?page=1` // Start with page 1
-    , href:`/nam/${year}`
+      link: `${server}/api/the-loai/phim-chieu-rap?page=1` // Start with page 1
+    , href:`/phim-chieu-rap`
   });
 
   const handlePageClick = (data) => {
@@ -34,7 +31,7 @@ const Page = () => {
     // Update the link when currentPage changes
     setType(prevType => ({
       ...prevType,
-      link: `${server}/api/nam/${year}?page=${currentPage+1}` // Add 1 to currentPage for 1-based index
+      link: `http://localhost:5000/api/the-loai/phim-chieu-rap?page=${currentPage+1}` // Add 1 to currentPage for 1-based index
     }));
   }, [currentPage]); // Depend on currentPage 
 

@@ -16,7 +16,9 @@ function Section({ type, onTotalPagesChange}) {
       try {
         setLoading(true)
         const res = await fetch(`${type.link}`);
+        console.log(type.link)
         const movies = await res.json();
+        console.log(movies)
         setFilms(movies.data?.items || movies.items);
         setTitlePage(movies.data?.titlePage || type.name_type);
         const pages = movies.data?.params?.pagination?.totalPages || 20;
