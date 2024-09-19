@@ -1,86 +1,57 @@
 "use client";
-
 import './page.css';
+import Section from '@/components/layouts/Section';
 import { useParams } from 'next/navigation';
 import ReactPaginate from 'react-paginate';
 import React, { useEffect, useState } from 'react';
 import BannerSlider from '@/components/layouts/BannerSlider';
 import MovieSearch from '@/components/layouts/MovieSearch';
-import MovieCard from '@/components/movies/MovieCard';
-import Loading from '@/components/layouts/Loading';
-
+import server_constant from '../../constance'
 const Page = () => {
-  const { query } = useParams();
+  const params = useParams(); // Get dynamic route parameters
+  const search = params['query']; // Access the dynamic parameter
   const [currentPage, setCurrentPage] = useState(0);
-  const [totalPages, setTotalPages] = useState(10);
-  const [dataPage, setDataPage] = useState([]);
-  const [isLoading, setLoading] = useState(true);
-  const [data, setData] = useState('');
+  const [totalPages, setTotalPages] = useState(10); // Example initial total pages
+  const [type, setType] = useState({
+    type_film:  '',
+    name_type:  `Tìm kiếm theo ${search}` || 'Tìm kiếm',
+    link: `${server_constant}/api/search?keyword=${search}`
+  });
 
-  // Handle page change
+  // Handle page click for pagination
   const handlePageClick = (page) => {
-    setCurrentPage(page.selected); // Use selected page from the event
+    setCurrentPage(page.selected); // Update current page from pagination
   };
 
-  // Update displayed items for current page
-  const listDataPage = (page, items) => {
-    const startIndex = page * 10;
-    const dataItems = items.slice(startIndex, startIndex + 10);
-    setDataPage(dataItems);
+  // Handle total pages change from the Section component
+  const handleTotalPagesChange = (pages) => {
+    setTotalPages(pages);
   };
 
   useEffect(() => {
-    // Fetch data based on query parameter
-    const fetchData = async () => {
-      try {
-        setLoading(true);
-        const res = await fetch(`https://phimapi.com/v1/api/tim-kiem?keyword=${query}`);
-        const movies = await res.json();
-        const totalItems = movies?.data.params?.pagination?.totalItems || 0;
-
-        setData(movies.data);
-        setItems(movies?.data.items);
-        setTotalPages(Math.ceil(totalItems / 10)); // Calculate total pages based on items
-
-        listDataPage(currentPage, movies.data.items);
-        setLoading(false);
-      } catch (error) {
-        console.error('Error fetching movies:', error);
-        setLoading(false);
-      }
-    };
-
-    fetchData();
-  }, [query, currentPage]); // Re-fetch if query or page changes
+      setType(prevType => ({
+        ...prevType,
+        link: `${server_constant}/api/search?keyword=${search}&page=${currentPage + 1}`
+      }));
+  }, [currentPage]);
 
   return (
-    <>
-      {isLoading ? (
-        <Loading />
-      ) : (
-        <div>
-          <MovieSearch />
-          <BannerSlider />
-          <h2 className='name-title'>{data.titlePage}</h2>
-          <div className="list-items">
-            {dataPage.map((item) => (
-              <MovieCard key={item.id} movie={item} />
-            ))}
-          </div>
-          <ReactPaginate
-            previousLabel={'«'}
-            nextLabel={'»'}
-            breakLabel={'...'}
-            pageCount={totalPages} // Total number of pages
-            marginPagesDisplayed={2}
-            pageRangeDisplayed={3}
-            onPageChange={handlePageClick} // Callback for page change
-            containerClassName={'pagination'}
-            activeClassName={'active'}
-          />
-        </div>
-      )}
-    </>
+    <div>
+      <MovieSearch />
+      <BannerSlider />
+      <Section type={type} onTotalPagesChange={handleTotalPagesChange} />
+      <ReactPaginate
+        previousLabel={'«'}
+        nextLabel={'»'}
+        breakLabel={'...'}
+        pageCount={totalPages} // Total number of pages
+        marginPagesDisplayed={0}
+        pageRangeDisplayed={3}
+        onPageChange={handlePageClick} // Callback when page changes
+        containerClassName={'pagination'}
+        activeClassName={'active'}
+      />
+    </div>
   );
 };
 

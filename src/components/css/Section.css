@@ -1,107 +1,107 @@
-/* General Styling */
-.list-film {
-    display: flex;
-    flex-wrap: wrap;
-    width: 94%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 15px;
-}
-
-/* Section Styling */
-.section {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    flex-direction: column;
-}
-.section .btn-view {
-    font-size: 14px;
-    width: 90px;
-    height: 30px;
-    margin-top: -10px;
-    border-radius: 5px;
-    color: #fff;
-    background-color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    transition: background-color 0.3s ease;
-    float: right;
-}
-.btn{
-    margin-top: -10px;
-    width: 80%;
-}
-
-.section .btn-view a {
-    text-decoration: none;
-    color: white;
-}
-
-.section .btn-view:hover {
-    background: #ff8a00;
-}
-
-.name-section {
-    margin-bottom: -10px;
-    font-size: 1.9em;
-    font-weight: 550;
-    color: #ff8a00;
-    text-transform: uppercase;
-}
-
-/* Responsive Design for Smaller Screens */
-/* For Tablets */
-@media (max-width: 1024px){
+    /* General Styling */
     .list-film {
-        width: 100%;
-        gap: 10px;
-        margin-top: 20px;
-    }
-}
-@media (max-width: 768px) {
-    .list-film {
-        width: 100%;
-        gap: 10px;
-    }
-
-    .section {
-        margin-top: 15px;
-    }
-
-    .section .btn-view {
-        width: 80px;
-        height: 28px;
-        font-size: 12px;
-    }
-
-    .name-section {
-        font-size: 1.5em;
-    }
-}
-
-/* For Mobile Devices */
-@media (max-width: 480px) {
-    .list-film {
-        width: 100%;
+        display: flex;
         flex-wrap: wrap;
-        gap: 8px;
-        margin-top: 10px;
+        width: 94%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
     }
 
+    /* Section Styling */
+    .section {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        flex-direction: column;
+    }
     .section .btn-view {
-        width: 80px;
-        height: 28px;
-        font-size: 12px;
+        font-size: 14px;
+        width: 90px;
+        height: 30px;
+        margin-top: -10px;
+        border-radius: 5px;
+        color: #fff;
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition: background-color 0.3s ease;
+        float: right;
+    }
+    .btn{
+        margin-top: -10px;
+        width: 80%;
+    }
+
+    .section .btn-view a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .section .btn-view:hover {
+        background: #ff8a00;
     }
 
     .name-section {
-        font-size: 1.2em;
+        margin-bottom: -10px;
+        font-size: 1.9em;
+        font-weight: 550;
+        color: #ff8a00;
+        text-transform: uppercase;
     }
-}
+
+    /* Responsive Design for Smaller Screens */
+    /* For Tablets */
+    @media (max-width: 1024px){
+        .list-film {
+            width: 100%;
+            gap: 10px;
+            margin-top: 20px;
+        }
+    }
+    @media (max-width: 768px) {
+        .list-film {
+            width: 100%;
+            gap: 10px;
+        }
+
+        .section {
+            margin-top: 15px;
+        }
+
+        .section .btn-view {
+            width: 80px;
+            height: 28px;
+            font-size: 12px;
+        }
+
+        .name-section {
+            font-size: 1.5em;
+        }
+    }
+
+    /* For Mobile Devices */
+    @media (max-width: 480px) {
+        .list-film {
+            width: 100%;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .section .btn-view {
+            width: 80px;
+            height: 28px;
+            font-size: 12px;
+        }
+
+        .name-section {
+            font-size: 1.2em;
+        }
+    }
