@@ -2,7 +2,7 @@
 import Header from '@/components/layouts/Header';
 import Footer from '@/components/layouts/Footer';
 import './globals.css';  // Đưa vào các style chung
-
+import Head from 'next/head';
 export const metadata = {
   title: 'top-phim | Top Phim | Top-phim | Phim Mới | Phim HD | Xem phim nhanh | Phim VietSub | Thuyết Minh Hay Nhất | Top Phim Hay',
   description: 'Top Phim Mới chất lượng cao miễn phí. Xem phim hd VietSub. Phim thuyết minh chất lượng HD. Kho top-phim.pro chuẩn nhanh online hay hấp dẫn.',
@@ -82,6 +82,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+      </Head>
       <body>
         <Header />
         {children}
