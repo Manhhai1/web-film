@@ -14,6 +14,7 @@ input {
   transition: all 0.3s ease;
   float: right;
   touch-action: manipulation;
+  -webkit-text-size-adjust: 100%;
 }
 .container{
   position: relative;
