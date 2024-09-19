@@ -38,10 +38,12 @@ function Section({ type, onTotalPagesChange}) {
       {
         isLoading ? <Loading className='loading'></Loading> : <>
         <h2 className='name-section'>{titlePage}</h2>
-        <div className='btn-view'>
-          <Link href={type.href||"#"}><span>Xem tất cả</span></Link>
-        </div>
-        <div className="list-film">
+          <div className="list-film">
+            <div className="btn">
+                  <div className='btn-view'>
+                  <Link href={type.href||"#"}><span>Xem tất cả</span></Link>
+                </div>
+            </div>
             {films?.map((movie) => (
               <MovieCard movie={movie} key={movie._id} />
             ))}
