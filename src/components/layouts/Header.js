@@ -86,6 +86,7 @@ const Header = () => {
           <li onClick={() => toggleSidebar('remove')}><h2><Link href="/tv-shows">Tv Shows</Link></h2></li>
           <li onClick={() => toggleSidebar('remove')}><h2><Link href="/phim-le">Phim lẻ</Link></h2></li>
           <li onClick={() => toggleSidebar('remove')}><h2><Link href="/phim-bo">Phim bộ</Link></h2></li>
+          <li onClick={() => toggleSidebar('remove')}><h2><Link href="/phim-chieu-rap">Phim chiếu rạp</Link></h2></li>
           <li className="dropdown">
             <h2 onClick={() => setOpenSubmenuCate(!isOpenSubmenuCate)}>Thể loại</h2>
             {isOpenSubmenuCate && (
