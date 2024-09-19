@@ -1,10 +1,10 @@
 
 import MoviePageContent from './MoviePageContent';
-
+import server from '@/app/constance';
 export async function generateMetadata({ params }) {
   const year = params['namId'];
   async function fetchData() {
-    const res = await fetch(`http://localhost:5000/api/nam/${year}?page=1`);
+    const res = await fetch(`${server}/api/nam/${year}?page=1`);
     const data = await res.json();
     return data?.data?.seoOnPage;
   }

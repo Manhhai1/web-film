@@ -31,7 +31,7 @@ const Page = () => {
     // Update the link when currentPage changes
     setType(prevType => ({
       ...prevType,
-      link: `http://localhost:5000/api/the-loai/phim-chieu-rap?page=${currentPage+1}` // Add 1 to currentPage for 1-based index
+      link: `${server}/api/the-loai/phim-chieu-rap?page=${currentPage+1}` // Add 1 to currentPage for 1-based index
     }));
   }, [currentPage]); // Depend on currentPage 
 
