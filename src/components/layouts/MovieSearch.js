@@ -15,6 +15,10 @@ const MovieSearch = () => {
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
+        style={{
+          fontSize: '16px', // Đảm bảo kích thước font tối thiểu
+          touchAction: 'none', // Ngăn chặn zoom khi chạm
+        }}
         placeholder="Tìm kiếm phim..."
       />
       <Link className='link' href={`/timkiem/${query}`}>
