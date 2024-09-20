@@ -2,6 +2,7 @@
 import dynamic from 'next/dynamic';
 import { Suspense } from 'react';
 import constant_server from './constance'
+import Footer from '@/components/layouts/Footer';
 // Sử dụng dynamic import để lazy load các component
 const Layout = dynamic(() => import('../components/layouts/Layout'));
 const Section = dynamic(() => import('../components/layouts/Section'));
@@ -39,6 +40,7 @@ const Home = () => {
           <Section type={section} />
         </Suspense>
       ))}
+      <Footer></Footer>
     </div>
   );
 };

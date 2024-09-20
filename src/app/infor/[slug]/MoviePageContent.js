@@ -5,6 +5,7 @@ import MoviePopup from '@/components/layouts/MoviePopup'
 import './page.css'
 import Loading from '@/components/layouts/Loading';
 import Section2 from '@/components/layouts/Section2'
+import Footer from '@/components/layouts/Footer'
 export default function Page() {
   const params = useParams(); // Get the dynamic route parameters
   const filmSlug = params['slug']; // Access the dynamic parameter
@@ -81,7 +82,7 @@ export default function Page() {
        setIsOpenPopup={setIsOpenPopup}
        src_film={linkEmbed}
       />
-    
+      <Footer></Footer>
    </div>
   )
 }
