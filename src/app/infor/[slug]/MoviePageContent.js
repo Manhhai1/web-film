@@ -40,8 +40,8 @@ export default function Page() {
        <div className="image-film" style={{ background: `url(${dataFilm?.thumb_url})` }}>
          <img className='poster-film' src={dataFilm?.poster_url} alt={`${dataFilm?.name}`} />
          <div className="content-film">
-           <h2>{dataFilm?.name}</h2>
-           <h4>{dataFilm?.origin_name}</h4>
+           <h2 className='ml-1'>{dataFilm?.name}</h2>
+           <h4 className='ml-1'>{dataFilm?.origin_name}</h4>
             <div className="btn-open">
                 <div className="btn-watch-film" src={episodes[0]?.link_embed} onClick={handleOpenPopup}>
                     Xem phim

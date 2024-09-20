@@ -121,8 +121,7 @@
   
   .content-film h4 {
     margin-top: -10px;
-  }
-  
+  }  
   .btn-watch-film {
     color: #fff;
     background-color: black;
@@ -228,12 +227,14 @@
     }
   
     .content-film {
+      padding-top: 240px;
       margin-left: 0;
       margin-bottom: 30px;
       position: static;
     }
   
     .poster-film {
+      display: none;
       position: static;
       margin: 0 auto 20px auto;
     }
@@ -253,14 +254,16 @@
   }
   
   @media (max-width: 480px) {
+    .content-film{
+      padding-top: 200px;
+    }
     .poster-film{
-        visibility: hidden;
+        display: none;
     }
     .film-info {
       width: 100%;
       margin-top: 10px;
     }
-  
     .content-film h4 {
       font-size: 1.2rem;
     }
