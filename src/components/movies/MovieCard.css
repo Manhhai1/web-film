@@ -97,8 +97,8 @@
 /* Mobile Devices */
 @media (max-width: 480px) {
     .item {
-        width: 150px;
-        height: 250px;
+        width: 170px;
+        height: 280px;
         margin: 5px;
     }
 

@@ -45,9 +45,12 @@ function Section({ type, onTotalPagesChange}) {
                 </div>
             </div>
           <div className="list-film">
-            {films?.map((movie) => (
-              <MovieCard movie={movie} key={movie._id} />
-            ))}
+          {films?.map((item) => {
+              const movie = item.movie || item; // Nếu item.movie không tồn tại, sử dụng item
+              return (
+                <MovieCard movie={movie} key={movie._id} />
+              );
+})}
         </div></>
        }
     </div>
